@@ -15,12 +15,14 @@ Michael Cassens maintains this course. Please contact Michael with any problems.
 - Skype: michaelcassens
 - Google+: michaelcassens@gmail.com
 - [Teaching Website](https://michaelcassens.github.io/teaching)
+- [Calendaring Link](https://calendly.com/michael-cassens/441-meeting)
 
 
 
 #### Office Hours
 
-For those of you in Missoula, you are welcome to come by for help during my office hours. This is another way for getting in touch with me and getting my help.
+By appt only for Spring 2021
+<!--For those of you in Missoula, you are welcome to come by for help during my office hours. This is another way for getting in touch with me and getting my help.-->
 
-- Mondays, Tuesdays and Wednesday:    1:00pm - 2:00pm
+<!--- Mondays, Tuesdays and Wednesday:    1:00pm - 2:00pm-->
 
