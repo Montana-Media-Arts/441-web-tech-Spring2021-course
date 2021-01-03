@@ -7,9 +7,6 @@ module: 1
 
 # _Issues Forum_ and Notifications from GitHub.com
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://umontana.zoom.us/rec/play/65AlIu37_Wk3SYeStQSDCvArW9S5LP6s0CAc8vEFzUrkBSMBZ1ajMLcRN0vsnkjPm3ysRHXzo-AJAiw?continueMode=true" frameborder="0" allowfullscreen></iframe></div>
-
-
 
 This class is heavily utilizing [GitHub.com](https://github.com). Not only is this service where you will host your git repo's and live websites, but this content site lives in GitHub and there is a "resources" repo for this site that contains;
 
@@ -23,7 +20,7 @@ By "watching" the course repository you will be get notifications about new issu
 
 To watch the course repo;
 
-- Navigate to [https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples](https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples). This issues forum for this site is also linked to from the "Issues-Forum" tab above in the navbar.
+- Navigate to [https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples](https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples). This issues forum for this site is also linked to from the "Issues-Forum" tab above in the navbar.
 - In the upper right-hand corner, you should select both "watching" and "star".
     - This will allow GitHub to e-mail you about notifications and issues in the course repo.
         - When you have problems, post them here.
@@ -34,7 +31,7 @@ To watch the course repo;
 
 ## Create a new “Issue”
 
-To create or respond to an issue, open the repo ["Issues Forum"](https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/issues).
+To create or respond to an issue, open the repo ["Issues Forum"](https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/issues).
 
 There you can search open issues to try and;
 

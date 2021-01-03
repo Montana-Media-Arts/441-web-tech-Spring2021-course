@@ -5,8 +5,6 @@ module: 1
 
 # What Will This Course Be Like?
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://umontana.zoom.us/rec/play/vpYsIrqvr2g3E9SRtQSDVKR_W9S4f66s0HdK-6ZfnRnkVSJWNFKgZOMUZeJHb-Znj3Ghh2sP6vVndC6f?continueMode=true" frameborder="0" allowfullscreen></iframe></div>
-
 Now that you have gone through the syllabus, along with its technical details and policies, lets talk about how this course will actually look like.
 
 ## Text & Reading
@@ -37,7 +35,7 @@ This course will _mostly_ run as weekly modules.
 
 When a module is released (i.e., it goes live on Moodle and this site), you will have one week to work through it, complete the homework, and submit your homework. You homework will always be due by 11:59 PM on the Monday of the next week.  Please don't wait until 11:59 PM to submit your homework.  Everyone tries and the Moodle might be on hiatus and then sad things can happen.
 
-For example, this module is opening on Monday, January 13th. Therefore, you have through next Monday, January 20th to complete the module. Likewise, your homework is due Saturday by 11:59 PM.
+For example, this module is opening on Monday, January 11th. Therefore, you have through next Monday, January 18th to complete the module.
 
 
 ## Homework
@@ -58,7 +56,7 @@ When you have problems in this course, you have a number of solutions available 
     - A critical skill in creative technology is learning to problem solve. Part of this involves learning how to form a good google query. Your first go to for help should always be google.
 2. Post a message to the [Course Discord](https://discord.gg/nbVCKwX)
     - Discord is like a massive chat where everyone can talk to one another in real time and help each other out with issues or just chat.
-3. Post to the [course issues forum](https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-examples/issues).
+3. Post to the [course issues forum](https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-examples/issues).
     - In a couple pages, you will follow along with a short tutorial that will help you signup for GitHub, then star and follow the "course repository". Part of this repository is an "issues forum" where you can post questions and problems you are having. These "issues" will be e-mailed to you, and you can then respond to them.
     - The advantage to the GitHub issues forum is its advanced system for including formatted code. This will help with problem solving.
 4. Get help from [Michael Cassens]({{site.baseurl}}/instructors/#instructor-prof-michael-cassens)
