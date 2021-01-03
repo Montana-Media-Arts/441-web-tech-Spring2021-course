@@ -3,7 +3,7 @@ title: Command Line
 module: 1
 ---
 
-# Your Development Environment
+## Your Development Environment
 
 As a creative technologist and developer you will need to take control of your computer. You should start to consider your computer as an instrument or creative tool that serves as an extension of yourself.
 

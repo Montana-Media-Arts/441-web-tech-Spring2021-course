@@ -4,7 +4,7 @@ module: 1
 jotted: false
 ---
 
-# Instructor Information
+## Instructor Information
 
 Quick links, including email links, office hours, and lab hours, are all available from the ["Instructors"]({{site.baseurl}}/instructors/) tab above in the course menubar.
 

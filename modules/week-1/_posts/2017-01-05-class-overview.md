@@ -3,7 +3,7 @@ title: What Will This Course Be Like?
 module: 1
 ---
 
-# What Will This Course Be Like?
+## What Will This Course Be Like?
 
 Now that you have gone through the syllabus, along with its technical details and policies, lets talk about how this course will actually look like.
 

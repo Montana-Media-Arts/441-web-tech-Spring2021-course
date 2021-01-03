@@ -4,7 +4,7 @@ module: 1
 jotted: false
 ---
 
-# Create a New Git Repository for This Course
+## Create a New Git Repository for This Course
 
 Before we dive into the assignment for the week, I want to walk you through creating a new Git repository for use in this course. We will also turn this repository "on", as a GitHub-Pages site.
 
