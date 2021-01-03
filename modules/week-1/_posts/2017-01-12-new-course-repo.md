@@ -61,8 +61,8 @@ Since we have not added and pushed an index.html document yet, GitHub uses your 
 ## 4. Clone Your New Repo
 
 1. To clone your repository, go back to the main page of the new repo.
-2. Select the "Clone or Download" button on this main page.
-3. If you are using the GitHub Desktop app, then you simply need to press the "Open in Desktop" button. If instead you are using another app, copy the git URL that pops up.
+2. Select the "Code" button on this main page.
+3. If you are using the GitHub Desktop app, then you simply need to press the "Open with GitHub Desktop" button. If instead you are using another app, copy the git URL that pops up.
 
 ![Open in Desktop Button](../imgs/Screen10.png)
 
