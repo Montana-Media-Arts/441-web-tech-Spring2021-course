@@ -27,8 +27,11 @@ First, we will create a new repo directly on GitHub.com. We will then turn it on
 
 <br />
 
-
 Your browser will now show you the brand new repository!
+
+Here is another walkthrough. This might take a few seconds to load.
+
+<iframe src="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=10" width="748" height="665" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/MART341/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
 
 ## 2. Turn The Repo Into a GitHub-Pages Site
 
