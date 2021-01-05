@@ -9,9 +9,10 @@ jotted: false
   <button class="tablinks" onclick="openTab(event, 'Pages')">Create page on GitHub</button>
   <button class="tablinks" onclick="openTab(event, 'Navigate')">Go to Site</button>
   <button class="tablinks" onclick="openTab(event, 'Clone')">Clone Site</button>
+    <button class="tablinks" onclick="openTab(event, 'TextEditor')">Open in Text Editor</button>
   <button class="tablinks" onclick="openTab(event, 'Base')">Add Base to URL</button>
   <button class="tablinks" onclick="openTab(event, 'Create')">Create index.html</button>
-  <button class="tablinks" onclick="openTab(event, 'Base')">Add Base to URL</button>
+
   <button class="tablinks" onclick="openTab(event, 'Commit')">Commit to GitHub</button>
   <button class="tablinks" onclick="openTab(event, 'Verify')">Verify files</button>
   <button class="tablinks" onclick="openTab(event, 'View')">View Page</button>
