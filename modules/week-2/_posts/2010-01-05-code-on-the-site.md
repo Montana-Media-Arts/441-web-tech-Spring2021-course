@@ -6,10 +6,6 @@ jotted: true
 
 # Code on This Site
 
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://umontana.zoom.us/rec/play/6JR8Iu-t_Tw3TIGc4gSDBf9_W43rfPisgCIY-6UNnUngVSQEOgWuZeNHNOIKweEJ7-QzQcpmPOvq4aDj?continueMode=true" frameborder="0" allowfullscreen></iframe></div>
-
-
 Whenever possible, I will try to provide code output in a way that is editable, changeable, and playable by you.
 
 - "Result"
