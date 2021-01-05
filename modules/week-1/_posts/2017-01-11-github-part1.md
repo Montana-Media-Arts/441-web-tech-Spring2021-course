@@ -1,17 +1,27 @@
 ---
-title: GitHub Part 1
+title: Issues and GitHub
 module: 1
 ---
 
 <!-- Consider moving to week 2. Instead, replace with Moodle forum info. -->
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'Watch')">Watch and Star</button>
+  <button class="tablinks" onclick="openTab(event, 'Issues')">Issues</button>
+  <button class="tablinks" onclick="openTab(event, 'Create')">Create Repository</button>
+  <button class="tablinks" onclick="openTab(event, 'GitHub')">GitHub Desktop</button>
+</div>
 
-## Issues Forum and Notifications from GitHub.com
+<div id="Overview" class="tabcontent" style="display:block" markdown="1">
 
 This class utilizes [GitHub.com](https://github.com). Not only is this service where you will host your git repo's and live websites, but this content site lives in GitHub and there is a "resources" repo for this site that contains.
 
 - code examples for this course
 - and an issues forum where you can ask each other for help.
+</div>
 
+
+<div id="Watch" class="tabcontent" markdown="1">
 ## "Watch" and Star The Course Resource Repository
 
 By "watching" the course repository you will be get notifications about new issues as well as when new resources become available.
@@ -26,8 +36,9 @@ To watch the course repo;
         - Your participation grade will be based on how active you were on the GitHub issues forum, as well as comments to your classmates to their weekly homework assignments.
 
 ![Follow and Star Repositories on GitHub.com](../imgs/Screen3.png)
+</div>
 
-## Create a new “Issue”
+<div id="Issues" class="tabcontent" markdown="1">
 
 To create or respond to an issue, open the repo ["Issues Forum"](https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/issues).
 
@@ -44,7 +55,31 @@ If no issue matches your problem, you can open a "New Issue". This allows you to
 NOTE: You should not repeat a comment that has already been added by anyone from your class. However, if you would like to further a comment already there, “@mention” the classmate/user and continue their discussion.
 
 As the semester goes on you will be expected to open issues here when you are having problems. You will also be graded on your involvement in the course issue board and your responses provided to fellow classmates throughout the semester.
+</div>
+<div id="Create" class="tabcontent" markdown="1">
 
-<!-- maybe another video here too
+<p><a href="//www.youtube.com/embed/FV4j1YkNSlo" data-lity>Create Repository Video</a></p>
 
--->
+<p>You want to create your repository if you don't have one. </p>
+<ol>
+<li>Go to <a href="https://github.com" target="_new">GitHub</a></li>
+<li>Create an account by clicking Sign up for GitHub.</li>
+<li>View your repositories.</li>
+</ol>
+</div>
+
+<div id="GitHub" class="tabcontent" markdown="1">
+
+<p><a href="//www.youtube.com/embed/L0TKgJRdY0s" data-lity>GitHub Desktop Video</a></p>
+
+<p>GitHub Desktop is a graphical interface to make a copy of your repository on your computer.  Then, you can make changes to your work and then quickly post it back to your repository.  Or if you heaven forbid something happens to your computer [trust me, it happens], then you have a backup.</p>
+
+<ol>
+<li>Go to <a href="https://desktop.github.com/" target="_new">GitHub Desktop</a></li>
+<li>Download your version and install it.</li>
+<li>Go to your repository and click on the <b>Code</b> button.</li>
+<li>Click on <b>Open with GitHub Desktop</b>.</li>
+<li>Create a clone on your computer.</li>
+<li>Remember to pull first <b>always</b> and then push.</li>
+</ol>
+</div>
