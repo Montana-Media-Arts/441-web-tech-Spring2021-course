@@ -15,7 +15,7 @@ jotted: false
 
   <button class="tablinks" onclick="openTab(event, 'Commit')">Commit to GitHub</button>
   <button class="tablinks" onclick="openTab(event, 'Verify')">Verify files</button>
-  <button class="tablinks" onclick="openTab(event, 'View')">View Page</button>
+  <button class="tablinks" onclick="openTab(event, 'NavigatetoSite')">View Page</button>
   
   
 </div>
