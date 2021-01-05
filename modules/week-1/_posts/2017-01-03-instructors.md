@@ -12,13 +12,13 @@ jotted: false
   <button class="tablinks" onclick="openTab(event, 'Bio')">Bio</button>
 </div>
 
-<div id="Quick" class="tabcontent" style="display:block">
+<div id="Quick" class="tabcontent" style="display:block"  markdown="1">
 <p>Quick links, including email links, office hours, and lab hours, are all available from the <a href="https://montana-media-arts.github.io/441-web-tech-Spring2021-course/instructors/">Instructors</a> tab above in the course menubar.</p>
 <p>What follows is a more detailed introduction to the people delivering this class to you this semester. We are a team and will be working together to provide this experience to you.</p>
 <p><a href="//www.youtube.com/embed/oBF8X8CdVVU" data-lity>Instructor Video</a></p>
 </div>
 
-<div id="Michael" class="tabcontent">
+<div id="Michael" class="tabcontent" markdown="1">
 
 <p>I am the professor delivering this course. I am also the instructor of record for this course. If you have any significant problems, administrative or technical, please come to me about them.</p>
 <p>I am excited to work with you and guide you through the journey of beginning to code!</p>
@@ -27,7 +27,7 @@ jotted: false
 </p>
 </div>
 
-<div id="Bio" class="tabcontent">
+<div id="Bio" class="tabcontent" markdown="1">
 <p>Michael Cassens is a teacher, a computer scientist, a creative technologist, a gamer, a game developer, and a mobile application developer.  His current practice and research revolve on how to become a better instructor, how to use gaming practices and theories to deliver better course content and build better and more interesting games for the market place using different games engines and mobile platforms.</p>
 <p>Some of his favorite games are:
   Mario Bros,
