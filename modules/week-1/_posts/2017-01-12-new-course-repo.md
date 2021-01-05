@@ -129,8 +129,8 @@ Finally, you should open the new local copy of the repo directory in your text e
 ![Add URL to Readme.md](../imgs/Screen14.png)
 
 </div>
-<div id="Create" class="tabcontent" markdown="1">
-
+<div id="Create" class="tabcontent">
+<div class="tabhtml" markdown="1">
 ## 7. Create a New 'index.html' File
 
 1. In your text editor, create a new file at the top level of the repo directory, save this document as `index.html`.
@@ -162,6 +162,7 @@ Finally, you should open the new local copy of the repo directory in your text e
 2. Next, Push your commits to the remote repository on GitHub.com, thereby sync-ing the remote and local versions of the repo.
 ![Push a repo to remote](../imgs/Screen17.png)
 
+</div>
 </div>
 <div id="Verify" class="tabcontent" markdown="1">
 
