@@ -6,15 +6,15 @@ jotted: false
 
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
-  <button class="tablinks" onclick="openTab(event, 'Pages')">Create page on GitHub</button>
-  <button class="tablinks" onclick="openTab(event, 'Navigate')">Go to Site</button>
+  <button class="tablinks" onclick="openTab(event, 'Pages')">Create</button>
+  <button class="tablinks" onclick="openTab(event, 'Navigate')">Visit Site</button>
   <button class="tablinks" onclick="openTab(event, 'Clone')">Clone Site</button>
-    <button class="tablinks" onclick="openTab(event, 'TextEditor')">Open in Text Editor</button>
-  <button class="tablinks" onclick="openTab(event, 'Base')">Add Base to URL</button>
-  <button class="tablinks" onclick="openTab(event, 'Create')">Create index.html</button>
+    <button class="tablinks" onclick="openTab(event, 'TextEditor')">Text Editor</button>
+  <button class="tablinks" onclick="openTab(event, 'Base')">Add BaseL</button>
+  <button class="tablinks" onclick="openTab(event, 'Create')">index.html</button>
 
-  <button class="tablinks" onclick="openTab(event, 'Commit')">Commit to GitHub</button>
-  <button class="tablinks" onclick="openTab(event, 'Verify')">Verify files</button>
+  <button class="tablinks" onclick="openTab(event, 'Commit')">Commit</button>
+  <button class="tablinks" onclick="openTab(event, 'Verify')">Verify</button>
   <button class="tablinks" onclick="openTab(event, 'NavigatetoSite')">View Page</button>
   
   
@@ -156,6 +156,7 @@ Create a New 'index.html' File
 
 ![basic home page in Visual Code editor](../imgs/Screen15.png)
 </div>
+</div>
 <div id="Commit" class="tabcontent" markdown="1">
 
 Commit Changes and Push to GitHub.com
@@ -167,7 +168,7 @@ Commit Changes and Push to GitHub.com
 ![Push a repo to remote](../imgs/Screen17.png)
 
 </div>
-</div>
+
 <div id="Verify" class="tabcontent" markdown="1">
 
 Verify Sync on GitHub.com
