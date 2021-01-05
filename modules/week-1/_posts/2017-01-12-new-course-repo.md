@@ -22,7 +22,7 @@ jotted: false
 
 <div id="Overview" class="tabcontent" style="display:block" markdown="1">
 
-Create a New Git Repository for This Course
+**Create a New Git Repository for This Course**
 
 Before we dive into the assignment for the week, I want to walk you through creating a new Git repository for use in this course. We will also turn this repository "on", as a GitHub-Pages site.
 
@@ -52,7 +52,7 @@ Here is another walkthrough. This might take a few seconds to load.
 
 <div id="Pages" class="tabcontent" markdown="1">
 
-Turn The Repo Into a GitHub-Pages Site
+**Turn The Repo Into a GitHub-Pages Site**
 
 To turn your repo into a GH-Pages site, you need to open the "Repository Settings".
 
@@ -71,7 +71,7 @@ To turn your repo into a GH-Pages site, you need to open the "Repository Setting
 </div>
 <div id="Navigate" class="tabcontent" markdown="1">
 
-Go To Your New Site
+**Go To Your New Site**
 
 First, wait a few moments up to a few minutes, for GitHub to "publish" your site. Then, click on the link provided from the "Settings" page. This should bring you to a static white page, displaying the contents of your README.md file.
 
@@ -82,7 +82,7 @@ Since we have not added and pushed an index.html document yet, GitHub uses your 
 </div>
 <div id="Clone" class="tabcontent" markdown="1">
 
-Clone Your New Repo
+**Clone Your New Repo**
 
 1. To clone your repository, go back to the main page of the new repo.
 2. Select the "Code" button on this main page.
@@ -113,7 +113,7 @@ Clone Your New Repo
 </div>
 <div id="TextEditor" class="tabcontent" markdown="1">
 
-Open The Repo Directory in your Text Editor
+**Open The Repo Directory in your Text Editor**
 
 Finally, you should open the new local copy of the repo directory in your text editor. If you are using GitHub Desktop.app, you can select the "Open in Atom" or "Open in Visual Studio Code" option from the "Repository" dropdown menu (depending on the text editor you have installed and setup with GitHub Desktop.app)
 
@@ -121,7 +121,7 @@ Finally, you should open the new local copy of the repo directory in your text e
 </div>
 <div id="Base" class="tabcontent" markdown="1">
 
-Add the Base URL of Your New Site to README.md
+**Add the Base URL of Your New Site to README.md**
 
 1. Copy the URL from the repo settings that is your new sites "base url".
 ![copy base url](../imgs/Screen13.png)
@@ -134,7 +134,7 @@ Add the Base URL of Your New Site to README.md
 <div id="Create" class="tabcontent">
 <div class="tabhtml" markdown="1">
 
-Create a New 'index.html' File
+**Create a New 'index.html' File**
 
 1. In your text editor, create a new file at the top level of the repo directory, save this document as `index.html`.
 2. In this document, create a basic html page with a header and paragraph that includes basic information about what this site is. Something like;
@@ -159,7 +159,7 @@ Create a New 'index.html' File
 </div>
 <div id="Commit" class="tabcontent" markdown="1">
 
-Commit Changes and Push to GitHub.com
+**Commit Changes and Push to GitHub.com**
 
 1. Back in GitHub Desktop.app or your Git app / CLI, stage & commit your changes to the repo.
 ![GitHub Desktop App commit example](../imgs/Screen16.png)
@@ -171,7 +171,7 @@ Commit Changes and Push to GitHub.com
 
 <div id="Verify" class="tabcontent" markdown="1">
 
-Verify Sync on GitHub.com
+**Verify Sync on GitHub.com**
 
 1. In your browser, navigate back to your repository on github.com.
 2. You should now see the updated README.md being displayed, as well as the existence of the 'index.html' file.
@@ -179,7 +179,7 @@ Verify Sync on GitHub.com
 </div>
 <div id="NavigatetoSite" class="tabcontent" markdown="1">
 
-Navigate to the New Site Homepage
+**Navigate to the New Site Homepage**
 
 1. Finally, navigate back to the GH-Pages version of your site.
     - i.e. https://YOUR-USERNAME.github.io/YOUR-REPO-NAME
