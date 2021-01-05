@@ -8,10 +8,79 @@
 <!--<![endif]-->
 
 <head>
+	<style type="text/css">
+        /* Style the tab */
+        
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+        /* Style the buttons that are used to open the tab content */
+        
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+        }
+        /* Change background color of buttons on hover */
+        
+        .tab button:hover {
+            background-color: #ddd;
+        }
+        /* Create an active/current tablink class */
+        
+        .tab button.active {
+            background-color: #ccc;
+        }
+        /* Style the tab content */
+        
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+        
+        .tabhtml {
+            overflow: hidden;
+            padding: 0px 0px;
+            border: 0px solid #ccc;
+            width: 100%;
+            border-top: none;
+        }
+    </style>
 	<script type="text/javascript">
 		var _sf_startpt = (new Date()).getTime()
 
 	</script>
+	 <script>
+        function openTab(evt, tabName) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+    <script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
 	<meta charset="utf-8">
 	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
 
@@ -32,7 +101,7 @@
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/p2pustrap-custom.css" />
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/site.css" /> {% if page.extra_css %} {% for css in page.extra_css %}
 	<link rel="stylesheet" href="{{ site.baseurl }}{{ css }}" /> {% endfor %} {% endif %}
-
+	<link href="{{ site.baseurl }}/libs/lity/lity.css" rel="stylesheet">
 	<!-- Add Basic Reset Style Code Example Display -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/basic.css" />
 
