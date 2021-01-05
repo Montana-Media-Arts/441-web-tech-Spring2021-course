@@ -10,7 +10,7 @@ jotted: false
   <button class="tablinks" onclick="openTab(event, 'Navigate')">Visit Site</button>
   <button class="tablinks" onclick="openTab(event, 'Clone')">Clone Site</button>
     <button class="tablinks" onclick="openTab(event, 'TextEditor')">Text Editor</button>
-  <button class="tablinks" onclick="openTab(event, 'Base')">Add BaseL</button>
+  <button class="tablinks" onclick="openTab(event, 'Base')">Add Base</button>
   <button class="tablinks" onclick="openTab(event, 'Create')">index.html</button>
 
   <button class="tablinks" onclick="openTab(event, 'Commit')">Commit</button>
