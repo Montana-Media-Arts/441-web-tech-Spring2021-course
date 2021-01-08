@@ -15,7 +15,7 @@ jotted: false
 <div id="Quick" class="tabcontent" style="display:block"  markdown="1">
 <p>Quick links, including email links, office hours, and lab hours, are all available from the <a href="https://montana-media-arts.github.io/441-web-tech-Spring2021-course/instructors/">Instructors</a> tab above in the course menubar.</p>
 <p>What follows is a more detailed introduction to the people delivering this class to you this semester. We are a team and will be working together to provide this experience to you.</p>
-<p><a href="//www.youtube.com/embed/oBF8X8CdVVU" data-lity>Instructor Video</a></p>
+<p><a href="//youtu.be/Ixpety11xEA" data-lity>Instructor Video</a></p>
 </div>
 
 <div id="Michael" class="tabcontent" markdown="1">
