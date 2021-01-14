@@ -5,7 +5,13 @@ jotted: true
 ---
 
 # Code on This Site
-
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'links')">Code Links</button>
+   
+</div>
+<div id="Overview" class="tabcontent" style="display:block" >
+<div class="tabhtml" markdown="1">
 Whenever possible, I will try to provide code output in a way that is editable, changeable, and playable by you.
 
 - "Result"
@@ -54,10 +60,13 @@ To do this;
 });
 </script>
 
-
+</div>
+</div>
+<div id="links" class="tabcontent" >
+<div class="tabhtml" markdown="1">
 # Code Links
 
-Below many code examples
+Below are some code examples
 
 - [**[ Code Download ]**](https://github.com/Montana-Media-Arts/441-WebTech/blob/master/lecture_code/02/02/02_js_outside_html.zip)
     - This will be a zip folder containing all of the code for the example.
@@ -67,4 +76,5 @@ Below many code examples
 - [**[ Live Example ]**](https://montana-media-arts.github.io/441-WebTech/lecture_code/02/02/02_js_outside_html.html)
     - This will take you to a webpage that only has the code in question presented.
 
-These links will occur underneath code examples when appropriate and available.
+</div>
+</div>
