@@ -382,3 +382,5 @@ While you work on this chapter, you should use the following interactive JS cons
 </script>
 </div>
 </div>
+
+<em><a href="https://www.w3schools.com/js/default.asp" target="_new">Reference</a></em>
