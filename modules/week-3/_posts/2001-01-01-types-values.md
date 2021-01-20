@@ -7,18 +7,28 @@ jotted: true
 # Values, Data Types, & Operators
 
 
-
-Please read the following;
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'ValuesDataTypes')">Values/Data Types</button>
+  <button class="tablinks" onclick="openTab(event, 'Operators')">Math Operators</button>
+  <button class="tablinks" onclick="openTab(event, 'String')">String Operators</button>
+  <button class="tablinks" onclick="openTab(event, 'Unary')">Unary Operators</button>
+  <button class="tablinks" onclick="openTab(event, 'Comparison')">Comparison Operator</button>
+  <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
+</div>
+<div id="Overview" class="tabcontent" style="display:block"  markdown="1">
+Consider reading the following
 
 - Haverbeke, Marijn. **Eloquent JavaScript: A Modern Introduction to Programming.** 3rd Edition. N.p., 2018. Web.
     - [_Chapter 1; Values, Types, and Operators_](http://eloquentjavascript.net/3rd_edition/01_values.html)
 - **JavaScript Guide.** MDN web docs. 2018. Web.
     - [_Grammar and Types_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types)
     - [_Expressions and operators_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+</div>
+</div>
 
 
-
-## Goals
+<div id="ValuesDataTypes" class="tabcontent" markdown="1">
 
 At the end of the chapter you should have an understanding for;
 
@@ -37,6 +47,12 @@ At the end of the chapter you should have an understanding for;
         - template literal strings (``these use backticks and have special properties``)
     - Booleans
 
+</div>
+
+
+
+<div id="Operators" class="tabcontent" markdown="1">
+
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/XSI_ta0mvOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
@@ -49,19 +65,30 @@ At the end of the chapter you should have an understanding for;
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/isrkyyJfAz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
+</div>
+
+
+<div id="String" class="tabcontent" markdown="1">
+
     - String operators
         - String concatenation (`+`)
     
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/DTk3ptbINGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div>
 
+
+<div id="Unary" class="tabcontent" markdown="1">
     - Unary Operators
         - `typeof`
 
     
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/O6_MphRS0E8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div>
 
+
+<div id="Comparison" class="tabcontent" markdown="1">
     - Comparison Operators
         - `<`, `>`,`<=`, `>=`, `==`, `!=`
     - Logical Operators
@@ -73,7 +100,10 @@ At the end of the chapter you should have an understanding for;
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/yjg6D7B7ozM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
+</div>
 
+
+<div id="ToDo" class="tabcontent" markdown="1">
 ## Interactive JS Console
 
 While you work on this chapter, you should use the following interactive JS console to test out values, types, and operators.
@@ -97,3 +127,4 @@ While you work on this chapter, you should use the following interactive JS cons
     ]
 });
 </script>
+</div>
