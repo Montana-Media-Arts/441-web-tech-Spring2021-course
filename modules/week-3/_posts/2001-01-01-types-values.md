@@ -39,29 +39,32 @@ Consider reading the following
         - template literal strings (``these use backticks and have special properties``)
     - Booleans
 
-The latest ECMAScript standard defines nine types:
+### The latest ECMAScript standard defines nine types:
 
 Six Data Types that are primitives, checked by typeof operator:
-undefined : typeof instance === "undefined"
-Boolean : typeof instance === "boolean"
-Number : typeof instance === "number"
-String : typeof instance === "string"
-BigInt : typeof instance === "bigint"
-Symbol : typeof instance === "symbol"
 
-Structural Types:
+* undefined : typeof instance === "undefined"
+* Boolean : typeof instance === "boolean"
+* Number : typeof instance === "number"
+* String : typeof instance === "string"
+* BigInt : typeof instance === "bigint"
+* Symbol : typeof instance === "symbol"
 
-Object : typeof instance === "object". Special non-data but Structural type for any constructed object instance also used as data structures: new Object, new Array, new Map, new Set, new WeakMap, new WeakSet, new Date and almost everything made with new keyword;
+#### Structural Types:
 
-Function : a non-data structure, though it also answers for typeof operator: typeof instance === "function". This is merely a special shorthand for Functions, though every Function constructor is derived from Object constructor.
+**Object** : typeof instance === "object". Special non-data but Structural type for any constructed object instance also used as data structures: new Object, new Array, new Map, new Set, new WeakMap, new WeakSet, new Date and almost everything made with new keyword;
 
-Structural Root Primitive:
-null : typeof instance === "object". Special primitive type having additional usage for its value: if object is not inherited, then null is shown;
+**Function** : a non-data structure, though it also answers for typeof operator: typeof instance === "function". This is merely a special shorthand for Functions, though every Function constructor is derived from Object constructor.
+
+#### Structural Root Primitive:
+
+**null** : typeof instance === "object". Special primitive type having additional usage for its value: if object is not inherited, then null is shown;
 Keep in mind the only valuable purpose of typeof operator usage is checking the Data Type. If we wish to check any Structural Type derived from Object it is pointless to use typeof for that, as we will always receive "object". The indeed proper way to check what sort of Object we are using is instanceof keyword. But even in that case there might be misconceptions.
 
 As we can see the meaning of every primitive type is obvious except of undefined and null which are almost the same. This happens as the concept of Time is strictly connected with the purpose of algorithms. We can purport something that does not yet exist or does not exist anymore: undefined. But when we wish to be able to represent something that exists being empty, we have to invent another keyword. And that is what null stands for: the beginning of structural meaning.
 
 **Video**
+
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/XSI_ta0mvOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 </div>
@@ -70,12 +73,23 @@ As we can see the meaning of every primitive type is obvious except of undefined
 <div class="tabhtml" markdown="1">
 
 
-- **Operators**
-    - Basic mathematical operators
-        - addition/subtraction on numbers (`+`/`-`)
-        - multiplication/division on numbers (`*`/`/`)
-        - the modulo on numbers (`%`)
+- **Mathematical Operators**
+
     
+JavaScript Arithmetic Operators
+
+Arithmetic operators perform arithmetic on numbers (literals or variables).
+
+**Operator	Description**
++	        Addition
+-	        Subtraction
+*	        Multiplication
+**	        Exponentiation (ES2016)
+/	        Division
+%	        Modulus (Remainder)
+++	        Increment
+--	        Decrement
+
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/isrkyyJfAz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
