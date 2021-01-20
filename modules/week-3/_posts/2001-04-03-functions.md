@@ -5,14 +5,25 @@ jotted: true
 ---
 
 # Functions
-
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'Create')">Create</button>
+  <button class="tablinks" onclick="openTab(event, 'Test')">Test</button>
+  <button class="tablinks" onclick="openTab(event, 'Update')">Update</button>
+  <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
+</div>
+<div id="Overview" class="tabcontent" style="display:block"  markdown="1">
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/eLZjLu6yIgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 Okay, so now let's take it a step further and create a function.  Now, do you all feel comfortable with functions, also known as methods? 
 
 If not, functions are chunks of code that can be reused and usually perform only one thing.  Reuse is vital, so we don't duplicate code everywhere.  We want to maximize reusability and minimize maintainability.  That should be your mantra!
+</div>
 
+
+<div id="Create" class="tabcontent">
+<div class="tabhtml" markdown="1">
 So, now let's create a function and use it.
 
 Please create a new file and called it functions.html.  Enter the following:
@@ -34,7 +45,10 @@ Please create a new file and called it functions.html.  Enter the following:
     </body>
 </html>
 ```
+</div>
 
+<div id="Test" class="tabcontent">
+<div class="tabhtml" markdown="1">
 Now, when you open this page, nothing happens.  Check the console, and you shouldn't see any errors.  So, what happened? Remember, how I said HTML pages start at the top and read down?  The HTML page reads from top to bottom, but for the function to execute, it must be called.  So, for this to work, we need to do something like this:
 
 ```html
@@ -59,23 +73,55 @@ Now, when you open this page, nothing happens.  Check the console, and you shoul
 ```
 
 Did you see the annoying popup box?  Yes!  You have created your first one.  It won't be your last.
-
+</div>
+</div>
+<div id="Update" class="tabcontent">
+<div class="tabhtml" markdown="1">
 The final portion that you need to know is changing the window.alert to something that will print out on the screen.
 
 To do this, you want to change the following.
 
-```html
+```js
  window.alert("HI");
 ```
 
 to something like this
 
-```html
+```js
 document.write("HI");
 ```
 
 Now, it should show up on the web page as opposed to a popup.  Keep in mind that you can add HTML tags in between the double-quotes.
 
-```html
+```js
 document.write("<h1>HI</h1>");
 ```
+</div>
+</div>
+<div id="ToDo" class="tabcontent" >
+<div class="tabhtml" markdown="1">
+## Interactive JS Console
+
+Feel free to try out some of the prior examples.
+
+<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
+
+<script>
+    new Jotted(document.querySelector("#jotted-demo-1"), {
+    files: [
+        {
+            type: "js",
+            hide: false,
+            content: "// try out operators, values, etc, here...\n\n// as an example\nconsole.log( typeof \"Hello World!\");\nconsole.log( 5*10 == 50 );\n\n\n"
+        }
+    ],
+    showBlank: false,
+    showResult: false,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        { name: 'console', options: { autoClear: false } },
+    ]
+});
+</script>
+</div>
+</div>
