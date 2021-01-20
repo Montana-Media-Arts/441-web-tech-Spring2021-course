@@ -46,7 +46,7 @@ Please create a new file and called it functions.html.  Enter the following:
 </html>
 ```
 </div>
-
+</div>
 <div id="Test" class="tabcontent">
 <div class="tabhtml" markdown="1">
 Now, when you open this page, nothing happens.  Check the console, and you shouldn't see any errors.  So, what happened? Remember, how I said HTML pages start at the top and read down?  The HTML page reads from top to bottom, but for the function to execute, it must be called.  So, for this to work, we need to do something like this:
