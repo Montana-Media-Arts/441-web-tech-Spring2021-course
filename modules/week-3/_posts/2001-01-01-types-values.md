@@ -302,9 +302,9 @@ Logical operators are used to determine the logic between variables or values.
 Given that x = 6 and y = 3, the table below explains the logical operators:
 
 **Operator	Description	Example**
-- &&	    and	        (x < 10 && y > 1) is true	
-- ||	    or	        (x == 5 || y == 5) is false	
-- !	        not	        !(x == y) is true	
+- `&&`	    `and`	    `(x < 10 && y > 1) is true`	
+- `||`	    `or`	    `(x == 5 || y == 5) is false`	
+- `!`	    `not`	    `!(x == y) is true`	
 
 **Conditional (Ternary) Operator**
 
@@ -327,14 +327,14 @@ Comparing data of different types may give unexpected results.
 When comparing a string with a number, JavaScript will convert the string to a number when doing the comparison. An empty string converts to 0. A non-numeric string converts to NaN which is always false.
 
 **Case	Value**
-- 2 < 12	true	
-- 2 < "12"	true	
-- 2 < "John"	false	
-- 2 > "John"	false	
-- 2 == "John"	false	
-- "2" < "12"	false	
-- "2" > "12"	true	
-- "2" == "12"	false	
+- `2 < 12`	true	
+- `2 < "12"`	true	
+- `2 < "John"`	false	
+- `2 > "John"`	false	
+- `2 == "John"`	false	
+- `"2" < "12"`	false	
+- `"2" > "12"`	true	
+- `"2" == "12"`	false	
 
 When comparing two strings, "2" will be greater than "12", because (alphabetically) 1 is less than 2.
 
