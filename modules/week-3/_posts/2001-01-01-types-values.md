@@ -9,7 +9,6 @@ jotted: true
 
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
-  <button class="tablinks" onclick="openTab(event, 'ValuesDataTypes')">Values/Data Types</button>
   <button class="tablinks" onclick="openTab(event, 'Operators')">Math Operators</button>
   <button class="tablinks" onclick="openTab(event, 'String')">String Operators</button>
   <button class="tablinks" onclick="openTab(event, 'Unary')">Unary Operators</button>
@@ -24,11 +23,6 @@ Consider reading the following
 - **JavaScript Guide.** MDN web docs. 2018. Web.
     - [_Grammar and Types_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types)
     - [_Expressions and operators_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
-</div>
-</div>
-
-
-<div id="ValuesDataTypes" class="tabcontent" markdown="1">
 
 - **Values**
     - Regular Values
