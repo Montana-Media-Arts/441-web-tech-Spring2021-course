@@ -100,16 +100,103 @@ Variables declared inside a block {} cannot be accessed from outside the block:
 // x can NOT be used here
 ```
 
+#### Const
+
+Assigned when Declared
+
+JavaScript const variables must be assigned a value when they are declared:
+
+
+Incorrect
+
+```js
+const PI;
+PI = 3.14159265359;
+```
+
+Correct
+
+```js
+const PI = 3.14159265359;
+```
+
+**Not Real Constants**
+
+The keyword const is a little misleading.
+
+It does NOT define a constant value. It defines a constant reference to a value.
+
+Because of this, we cannot change constant primitive values, but we can change the properties of constant objects.
+
+Primitive Values
+
+If we assign a primitive value to a constant, we cannot change the primitive value: 
+
+```js
+const PI = 3.141592653589793;
+PI = 3.14;      // This will give an error
+PI = PI + 10;   // This will also give an error
+```
+
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/7OLJsDclVXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </div>
 </div>
 <div id="Functions" class="tabcontent">
 <div class="tabhtml" markdown="1">
-- Have a basic grasp of what a _Function_ is
+
+- _Functions_
     - especially;
         - `console.log()`
         - `prompt()`
+
+**The console.log() Method**
+
+If your browser supports debugging, you can use console.log() to display JavaScript values in the debugger window:
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+
+<script>
+    a = 5;
+    b = 6;
+    c = a + b;
+    console.log(c);
+</script>
+
+</body>
+</html>
+```
+
+#### Window prompt() Method
+
+
+Display a prompt box which ask the user for her/his name, and output a message:
+
+```js
+var person = prompt("Please enter your name", "Harry Potter");
+
+if (person != null) {
+  document.getElementById("demo").innerHTML =
+  "Hello " + person + "! How are you today?";
+}
+```
+
+**Definition and Usage**
+
+The prompt() method displays a dialog box that prompts the visitor for input.
+
+A prompt box is often used if you want the user to input a value before entering a page.
+
+Note: When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed after entering an input value. Do not overuse this method, as it prevents the user from accessing other parts of the page until the box is closed.
+
+The prompt() method returns the input value if the user clicks "OK". If the user clicks "cancel" the method returns null.
+
+Recognize that the _functions_ can produce _Return Values_
 
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/smVWNLrZnz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -117,10 +204,9 @@ Variables declared inside a block {} cannot be accessed from outside the block:
 </div>
 <div id="Controls" class="tabcontent">
 <div class="tabhtml" markdown="1">
-- Recognize that the _functions_ can produce _Return Values_
-- _Control Flow_
+
+_Control Flow_
     - As well as using _conditional execution_ with control flow
-    - Understand how to use;
         - `if(){}`
         - `if(){} / else{}`
         - `if(){} / else if(){} / else{}`
@@ -135,13 +221,16 @@ Variables declared inside a block {} cannot be accessed from outside the block:
 </div>
 <div id="Assignments" class="tabcontent">
 <div class="tabhtml" markdown="1">
-- Basic coding standards and conventions
+
+
+#### Basic coding standards and conventions
     - Use proper "naming conventions" when creating bindings
         - Including what characters can and cannot be used
         - Utilize a single approach to capitalization
     - Indent Code Properly
     - Understand how to include comments
-- assignment operators
+
+#### Assignment operators
     - `+=`
     - `-=`
     - `*=`
