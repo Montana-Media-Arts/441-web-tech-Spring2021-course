@@ -73,24 +73,24 @@ As we can see the meaning of every primitive type is obvious except of undefined
 <div class="tabhtml" markdown="1">
 
 
-- **Mathematical Operators**
-
+**Mathematical Operators**
     
 JavaScript Arithmetic Operators
 
 Arithmetic operators perform arithmetic on numbers (literals or variables).
 
-**Operator	Description**
-+	        Addition
--	        Subtraction
-*	        Multiplication
-**	        Exponentiation (ES2016)
-/	        Division
-%	        Modulus (Remainder)
-++	        Increment
---	        Decrement
+**Operator	    Description**
+`+`	            Addition
+`-`	            Subtraction
+`*`	            Multiplication
+`**`	        Exponentiation
+`/`	            Division
+`%`	            Modulus (Remainder)
+`++`	        Increment
+`--`	        Decrement
 
 **Video**
+
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/isrkyyJfAz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 </div>
