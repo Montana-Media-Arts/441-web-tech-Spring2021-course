@@ -189,9 +189,41 @@ Six other escape sequences are valid in JavaScript:
 
 <div id="Unary" class="tabcontent" >
 <div class="tabhtml" markdown="1">
-    - Unary Operators
-        - `typeof`
 
+#### Unary Operators
+
+The typeof Operator
+
+You can use the typeof operator to find the data type of a JavaScript variable.
+
+
+* typeof "John"                 // Returns "string"
+* typeof 3.14                   // Returns "number"
+* typeof NaN                    // Returns "number"
+* typeof false                  // Returns "boolean"
+* typeof [1,2,3,4]              // Returns "object"
+* typeof {name:'John', age:34}  // Returns "object"
+* typeof new Date()             // Returns "object"
+* typeof function () {}         // Returns "function"
+* typeof myCar                  // Returns "undefined" *
+* typeof null                   // Returns "object"
+
+Please observe:
+
+* The data type of NaN is number
+* The data type of an array is object
+* The data type of a date is object
+* The data type of null is object
+* The data type of an undefined variable is undefined *
+* The data type of a variable that has not been assigned a value is also undefined *
+* You cannot use typeof to determine if a JavaScript object is an array (or a date).
+
+
+The Data Type of typeof
+
+The typeofoperator is not a variable. It is an operator. Operators ( + - * / ) do not have any data type.
+
+But, the typeof operator always returns a string (containing the type of the operand).
     
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/O6_MphRS0E8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
