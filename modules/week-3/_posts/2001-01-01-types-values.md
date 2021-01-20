@@ -359,7 +359,7 @@ if (isNaN(age)) {
 <div class="tabhtml" markdown="1">
 ## Interactive JS Console
 
-While you work on this chapter, you should use the following interactive JS console to test out values, types, and operators.
+Feel free to try out some of the prior examples.
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 
