@@ -232,13 +232,90 @@ But, the typeof operator always returns a string (containing the type of the ope
 
 <div id="Comparison" class="tabcontent">
 <div class="tabhtml" markdown="1">
-    - Comparison Operators
-        - `<`, `>`,`<=`, `>=`, `==`, `!=`
-    - Logical Operators
-        - or - `||`
-        - and - `&&`
-        - not - `!`
-    - Type Conversion
+
+Comparison and Logical operators are used to test for true or false.
+
+#### Comparison Operators
+
+Comparison operators are used in logical statements to determine equality or difference between variables or values.
+
+Given that x = 5, the table below explains the comparison operators:
+<blockquote>
+<table>
+<tr>
+<td>Operator</td><td>Description</td><td>Comparing</td><td>Returns</td>
+</tr>
+<tr>
+<td>`==`</td><td>equal to</td><td>`x == 8`</td><td>false</td>
+</tr>
+<tr>
+<td colspan="2">&nbsp;</td><td>`x == 5`</td><td>true</td>
+</tr>
+<table>
+                                `x == "5"`	    true	
+
+- `===`	    equal value and equal type	`x === 5`	true	
+                                `x === "5"`	false	
+!=	not equal	x != 8	true	
+!==	not equal value or not equal type	x !== 5	false	
+x !== "5"	true	
+x !== 8	true	
+>	greater than	x > 8	false	
+<	less than	x < 8	true	
+>=	greater than or equal to	x >= 8	false	
+<=	less than or equal to	x <= 8	true	
+ADVERTISEMENT
+
+
+How Can it be Used
+Comparison operators can be used in conditional statements to compare values and take action depending on the result:
+
+if (age < 18) text = "Too young to buy alcohol";
+You will learn more about the use of conditional statements in the next chapter of this tutorial.
+
+Logical Operators
+Logical operators are used to determine the logic between variables or values.
+
+Given that x = 6 and y = 3, the table below explains the logical operators:
+
+Operator	Description	Example	Try it
+&&	and	(x < 10 && y > 1) is true	
+||	or	(x == 5 || y == 5) is false	
+!	not	!(x == y) is true	
+Conditional (Ternary) Operator
+JavaScript also contains a conditional operator that assigns a value to a variable based on some condition.
+
+Syntax
+variablename = (condition) ? value1:value2 
+Example
+var voteable = (age < 18) ? "Too young":"Old enough";
+If the variable age is a value below 18, the value of the variable voteable will be "Too young", otherwise the value of voteable will be "Old enough".
+
+Comparing Different Types
+Comparing data of different types may give unexpected results.
+
+When comparing a string with a number, JavaScript will convert the string to a number when doing the comparison. An empty string converts to 0. A non-numeric string converts to NaN which is always false.
+
+Case	Value	Try
+2 < 12	true	
+2 < "12"	true	
+2 < "John"	false	
+2 > "John"	false	
+2 == "John"	false	
+"2" < "12"	false	
+"2" > "12"	true	
+"2" == "12"	false	
+When comparing two strings, "2" will be greater than "12", because (alphabetically) 1 is less than 2.
+
+To secure a proper result, variables should be converted to the proper type before comparison:
+
+age = Number(age);
+if (isNaN(age)) {
+  voteable = "Input is not a number";
+} else {
+  voteable = (age < 18) ? "Too young" : "Old enough";
+}
+
     
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/yjg6D7B7ozM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
