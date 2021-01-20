@@ -256,7 +256,7 @@ Feel free to try out some of the prior examples.
         {
             type: "js",
             hide: false,
-            content: "// try out operators, values, etc, here...\n\n// as an example\nconsole.log( typeof \"Hello World!\");\nconsole.log( 5*10 == 50 );\n\n\n"
+            content: "// try out operators, values, etc, here...\n\n// as an example\nconsole.log( typeof \"Hello World!\");\nif(2<10)\n{\nconsole.log( 'true' );\n}\n\n\n"
         }
     ],
     showBlank: false,
