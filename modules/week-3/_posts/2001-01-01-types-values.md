@@ -98,9 +98,90 @@ Arithmetic operators perform arithmetic on numbers (literals or variables).
 
 <div id="String" class="tabcontent">
 <div class="tabhtml" markdown="1">
-    - String operators
-        - String concatenation (`+`)
-    
+
+JavaScript strings are used for storing and manipulating text.
+
+#### JavaScript Strings
+
+A JavaScript string is zero or more characters written inside quotes.
+
+
+```js
+var x = "John Doe";
+```
+
+You can use single or double quotes:
+
+```js
+var carName1 = "Volvo XC60";  // Double quotes
+var carName2 = 'Volvo XC60';  // Single quotes
+```
+
+You can use quotes inside a string, as long as they don't match the quotes surrounding the string:
+
+```js
+var answer1 = "It's alright";
+var answer2 = "He is called 'Johnny'";
+var answer3 = 'He is called "Johnny"';
+```
+
+String Length
+
+To find the length of a string, use the built-in length property:
+
+```js
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var sln = txt.length;
+```
+
+
+Escape Character
+
+Because strings must be written within quotes, JavaScript will misunderstand this string:
+
+```js
+var x = "We are the so-called "Vikings" from the north.";
+```
+
+The string will be chopped to "We are the so-called ".
+
+The solution to avoid this problem, is to use the backslash escape character.
+
+The backslash (\) escape character turns special characters into string characters:
+
+**Code	Result	Description**
+`\'`	`'`	    Single quote
+`\"`	`"`	    Double quote
+`\\`	`\`	    Backslash
+
+The sequence \"  inserts a double quote in a string:
+
+```js
+var x = "We are the so-called \"Vikings\" from the north.";
+```
+
+The sequence \'  inserts a single quote in a string:
+
+```js
+var x = 'It\'s alright.';
+```
+
+The sequence \\  inserts a backslash in a string:
+
+```js
+var x = "The character \\ is called backslash.";
+```
+
+Six other escape sequences are valid in JavaScript:
+
+**Code	Result**
+`\b`	Backspace
+`\f`	Form Feed
+`\n`	New Line
+`\r`	Carriage Return
+`\t`	Horizontal Tabulator
+`\v`	Vertical Tabulator
+
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/DTk3ptbINGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </div>
