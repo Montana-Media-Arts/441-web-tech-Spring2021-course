@@ -20,7 +20,7 @@ jotted: true
 Consider reading the following
 
 - Haverbeke, Marijn. **Eloquent JavaScript: A Modern Introduction to Programming.** 3rd Edition. N.p., 2018. Web.
-    - [_Chapter 1; Values, Types, and Operators_](http://eloquentjavascript.net/3rd_edition/01_values.html)
+    - [_Chapter 1: Values, Types, and Operators_](http://eloquentjavascript.net/3rd_edition/01_values.html)
 - **JavaScript Guide.** MDN web docs. 2018. Web.
     - [_Grammar and Types_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types)
     - [_Expressions and operators_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
@@ -29,8 +29,6 @@ Consider reading the following
 
 
 <div id="ValuesDataTypes" class="tabcontent" markdown="1">
-
-At the end of the chapter you should have an understanding for;
 
 - **Values**
     - Regular Values
@@ -46,6 +44,28 @@ At the end of the chapter you should have an understanding for;
         - special characters (i.e., `\n`, `\t`)
         - template literal strings (``these use backticks and have special properties``)
     - Booleans
+
+The latest ECMAScript standard defines nine types:
+
+Six Data Types that are primitives, checked by typeof operator:
+undefined : typeof instance === "undefined"
+Boolean : typeof instance === "boolean"
+Number : typeof instance === "number"
+String : typeof instance === "string"
+BigInt : typeof instance === "bigint"
+Symbol : typeof instance === "symbol"
+
+Structural Types:
+
+Object : typeof instance === "object". Special non-data but Structural type for any constructed object instance also used as data structures: new Object, new Array, new Map, new Set, new WeakMap, new WeakSet, new Date and almost everything made with new keyword;
+
+Function : a non-data structure, though it also answers for typeof operator: typeof instance === "function". This is merely a special shorthand for Functions, though every Function constructor is derived from Object constructor.
+
+Structural Root Primitive:
+null : typeof instance === "object". Special primitive type having additional usage for its value: if object is not inherited, then null is shown;
+Keep in mind the only valuable purpose of typeof operator usage is checking the Data Type. If we wish to check any Structural Type derived from Object it is pointless to use typeof for that, as we will always receive "object". The indeed proper way to check what sort of Object we are using is instanceof keyword. But even in that case there might be misconceptions.
+
+As we can see the meaning of every primitive type is obvious except of undefined and null which are almost the same. This happens as the concept of Time is strictly connected with the purpose of algorithms. We can purport something that does not yet exist or does not exist anymore: undefined. But when we wish to be able to represent something that exists being empty, we have to invent another keyword. And that is what null stands for: the beginning of structural meaning.
 
 </div>
 
