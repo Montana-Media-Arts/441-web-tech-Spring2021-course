@@ -206,14 +206,15 @@ Recognize that the _functions_ can produce _Return Values_
 <div class="tabhtml" markdown="1">
 
 _Control Flow_
-    - As well as using _conditional execution_ with control flow
-        - `if(){}`
-        - `if(){} / else{}`
-        - `if(){} / else if(){} / else{}`
-        - `while(){}`
-        - `do{}while()`
-        - `break`
-        - `switch`
+- As well as using _conditional execution_ with control flow
+
+- `if(){}`
+- `if(){} / else{}`
+- `if(){} / else if(){} / else{}`
+- `while(){}`
+- `do{}while()`
+- `break`
+- `switch`
 
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/-UZdpIUFGQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
