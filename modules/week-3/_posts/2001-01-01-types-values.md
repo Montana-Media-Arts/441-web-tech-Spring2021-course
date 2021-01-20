@@ -252,6 +252,7 @@ Given that x = 5, the table below explains the comparison operators:
 <td colspan="2">&nbsp;</td><td>`x == 5`</td><td>true</td>
 </tr>
 <table>
+</blockquote>
                                 `x == "5"`	    true	
 
 - `===`	    equal value and equal type	`x === 5`	true	
