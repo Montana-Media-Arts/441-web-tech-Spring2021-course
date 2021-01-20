@@ -61,14 +61,14 @@ Keep in mind the only valuable purpose of typeof operator usage is checking the 
 
 As we can see the meaning of every primitive type is obvious except of undefined and null which are almost the same. This happens as the concept of Time is strictly connected with the purpose of algorithms. We can purport something that does not yet exist or does not exist anymore: undefined. But when we wish to be able to represent something that exists being empty, we have to invent another keyword. And that is what null stands for: the beginning of structural meaning.
 
-</div>
-
-
-
-<div id="Operators" class="tabcontent" markdown="1">
-
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/XSI_ta0mvOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+</div>
+
+<div id="Operators" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
 
 - **Operators**
     - Basic mathematical operators
@@ -80,19 +80,20 @@ As we can see the meaning of every primitive type is obvious except of undefined
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/isrkyyJfAz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 </div>
+</div>
 
-
-<div id="String" class="tabcontent" markdown="1">
-
+<div id="String" class="tabcontent">
+<div class="tabhtml" markdown="1">
     - String operators
         - String concatenation (`+`)
     
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/DTk3ptbINGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </div>
+</div>
 
-
-<div id="Unary" class="tabcontent" markdown="1">
+<div id="Unary" class="tabcontent" >
+<div class="tabhtml" markdown="1">
     - Unary Operators
         - `typeof`
 
@@ -100,9 +101,10 @@ As we can see the meaning of every primitive type is obvious except of undefined
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/O6_MphRS0E8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </div>
+</div>
 
-
-<div id="Comparison" class="tabcontent" markdown="1">
+<div id="Comparison" class="tabcontent">
+<div class="tabhtml" markdown="1">
     - Comparison Operators
         - `<`, `>`,`<=`, `>=`, `==`, `!=`
     - Logical Operators
@@ -115,9 +117,10 @@ As we can see the meaning of every primitive type is obvious except of undefined
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/yjg6D7B7ozM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 </div>
+</div>
 
-
-<div id="ToDo" class="tabcontent" markdown="1">
+<div id="ToDo" class="tabcontent" >
+<div class="tabhtml" markdown="1">
 ## Interactive JS Console
 
 While you work on this chapter, you should use the following interactive JS console to test out values, types, and operators.
@@ -141,4 +144,5 @@ While you work on this chapter, you should use the following interactive JS cons
     ]
 });
 </script>
+</div>
 </div>
