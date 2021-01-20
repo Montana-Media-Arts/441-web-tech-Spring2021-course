@@ -102,26 +102,11 @@ document.write("<h1>HI</h1>");
 <div class="tabhtml" markdown="1">
 ## Interactive JS Console
 
-Feel free to try out some of the prior examples.
+Feel free to try out some of the prior examples. If you want to make changes, please click on **Edit on CodePen**
 
-<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
-
-<script>
-    new Jotted(document.querySelector("#jotted-demo-1"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            content: "// try out operators, values, etc, here...\n\n// as an example\nconsole.log( typeof \"Hello World!\");\nconsole.log( 5*10 == 50 );\n\n\n"
-        }
-    ],
-    showBlank: false,
-    showResult: false,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 50 } },
-        { name: 'console', options: { autoClear: false } },
-    ]
-});
-</script>
+<iframe height="265" style="width: 100%;" scrolling="no" title="MART 441 Functions" src="https://codepen.io/retrog4m3r/embed/BaLEypd?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/retrog4m3r/pen/BaLEypd'>MART 441 Functions</a> by Michael Cassens
+  (<a href='https://codepen.io/retrog4m3r'>@retrog4m3r</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 </div>
 </div>
