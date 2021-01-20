@@ -150,9 +150,9 @@ The solution to avoid this problem, is to use the backslash escape character.
 The backslash (\) escape character turns special characters into string characters:
 
 **Code	Result	Description**
-`\'`	`'`	    Single quote
-`\"`	`"`	    Double quote
-`\\`	`\`	    Backslash
+- `\'`	`'`	    Single quote
+- `\"`	`"`	    Double quote
+- `\\`	`\`	    Backslash
 
 The sequence \"  inserts a double quote in a string:
 
@@ -175,12 +175,12 @@ var x = "The character \\ is called backslash.";
 Six other escape sequences are valid in JavaScript:
 
 **Code	Result**
-`\b`	Backspace
-`\f`	Form Feed
-`\n`	New Line
-`\r`	Carriage Return
-`\t`	Horizontal Tabulator
-`\v`	Vertical Tabulator
+- `\b`	Backspace
+- `\f`	Form Feed
+- `\n`	New Line
+- `\r`	Carriage Return
+- `\t`	Horizontal Tabulator
+- `\v`	Vertical Tabulator
 
 **Video**
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/DTk3ptbINGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
