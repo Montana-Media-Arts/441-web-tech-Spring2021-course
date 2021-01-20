@@ -80,14 +80,14 @@ JavaScript Arithmetic Operators
 Arithmetic operators perform arithmetic on numbers (literals or variables).
 
 **Operator	    Description**
-`+`	            Addition
-`-`	            Subtraction
-`*`	            Multiplication
-`**`	        Exponentiation
-`/`	            Division
-`%`	            Modulus (Remainder)
-`++`	        Increment
-`--`	        Decrement
+- `+`	        Addition
+- `-`	        Subtraction
+- `*`	        Multiplication
+- `**`	        Exponentiation
+- `/`	        Division
+- `%`	        Modulus (Remainder)
+- `++`	        Increment
+- `--`	        Decrement
 
 **Video**
 
