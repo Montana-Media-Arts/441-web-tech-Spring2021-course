@@ -99,7 +99,7 @@ document.write("<h1>HI</h1>");
 </div>
 </div>
 <div id="ToDo" class="tabcontent" >
-<div class="tabhtml" markdown="1">\
+<div class="tabhtml" markdown="1">
 
 Please wait a few seconds for this to load.
 
