@@ -282,7 +282,7 @@ Given that x = 5, the table below explains the comparison operators:
 <td>>=</td><td>greater than or equal to</td><td>x >= 8</td><td>false</td>
 </tr>
 <tr>
-<td><>=</td><td>less than or equal to</td><td>x <= 8</td><td>true</td>
+<td><=</td><td>less than or equal to</td><td>x <= 8</td><td>true</td>
 </tr>
 </table>
 </blockquote>	
