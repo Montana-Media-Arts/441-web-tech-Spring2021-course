@@ -41,14 +41,14 @@ Consider reading the following
 
 ### The latest ECMAScript standard defines nine types:
 
-Six Data Types that are primitives, checked by typeof operator:
+Six Data Types that are primitive:
 
-* undefined : typeof instance === "undefined"
-* Boolean : typeof instance === "boolean"
-* Number : typeof instance === "number"
-* String : typeof instance === "string"
-* BigInt : typeof instance === "bigint"
-* Symbol : typeof instance === "symbol"
+* undefined 
+* Boolean 
+* Number 
+* String 
+* BigInt 
+* Symbol 
 
 #### Structural Types:
 
