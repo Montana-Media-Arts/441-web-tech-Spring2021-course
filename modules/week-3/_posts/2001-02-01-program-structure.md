@@ -245,7 +245,12 @@ _Control Flow_
 </div>
 <div id="ToDo" class="tabcontent" >
 <div class="tabhtml" markdown="1">
-## Interactive JS Console
+
+Please allow a few seconds for this to load.
+
+<iframe src="https://umontanamediaarts.com/MART441/wp-admin/admin-ajax.php?action=h5p_embed&id=2" width="959" height="301" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/MART441/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+### Interactive JS Console
 
 Feel free to try out some of the prior examples.
 
