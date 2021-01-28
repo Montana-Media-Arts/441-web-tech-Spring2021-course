@@ -16,8 +16,8 @@ jotted: true
   <button class="tablinks" onclick="openTab(event, 'Reading')">Reading</button>
   <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
 </div>
-<div id="Overview" class="tabcontent" style="display:block"  markdown="1">
-
+<div id="Overview" class="tabcontent" style="display:block">
+<div class="tabhtml" markdown="1">
 We have already learned that _Functions_ are one of the basic building blocks of programming.  Functions _do something_ in code. They compute values and return data to the main program, or do something else as a side-effect to the main program.
 
 The Mozilla Developer Network (MDN) defines functions as follows;
@@ -37,7 +37,7 @@ window.alert("Hi there!");
 ```
 
 There are many "builtin" functions to JavaScript, which you will learn about and use as you progress.
-
+</div>
 </div>
 <div id="Calling" class="tabcontent" >
 <div class="tabhtml" markdown="1">
