@@ -5,10 +5,24 @@ jotted: true
 ---
 
 # Math Functions
-
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'random')">Math.random</button>
+  <button class="tablinks" onclick="openTab(event, 'abs')">Math.abs</button>
+  <button class="tablinks" onclick="openTab(event, 'pi')">Math.PI</button>
+  <button class="tablinks" onclick="openTab(event, 'round')">Math.round</button>
+  <button class="tablinks" onclick="openTab(event, 'pow')">Math.round</button>
+  <button class="tablinks" onclick="openTab(event, 'sqrt')">Math.sqrt</button>
+  <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
+</div>
+<div id="Overview" class="tabcontent" style="display:block"  markdown="1">
 The nice thing about most languages and JavaScript is no different is that there are built-in functions to help us to perform actions and we don't have to worry about creating them ourselves.  What is the Math class?
 
 The Math class is a class built by someone else and is automatically available to us by just making a call to math.  What does this look like?
+</div>
+
+<div id="random" class="tabcontent" >
+<div class="tabhtml" markdown="1">
 
 ## Random
 The beautiful thing about most languages and JavaScript is no different is that there are built-in functions to help us to perform actions, and we don't have to worry about creating them ourselves.  What is the Math class?
@@ -61,7 +75,7 @@ You should see a double.  That is because random returns a number between 0 and 
         </script>
     </body>
 </html>
-`"
+```
 This time, we are adding a couple of new things.  First, look at the Math.random() - we know that returns something between 0 and 1.  Then, we multiply it by 10. So, if Math.random() returns .83302 and we multiply it by 10, then we should have 8.3302.  However, it's still a double or decimal number.  So, we have to use another method in the Math class called the floor method.  This method returns the whole number rounding down.
 
 You can prove it to yourself by running the following example:
@@ -116,9 +130,13 @@ If you read through this code, we are getting a number between 5 and 10 because 
 
 Oh, yes, and one more thing.  There is a **return** in the method getARandomNumber.  This time, nothing prints in the function, but the results return from the function and printed.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2h1crDRLVn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/2h1crDRLVn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 What other methods are there?
+</div>
+
+<div id="abs" class="tabcontent" >
+<div class="tabhtml" markdown="1">
 
 ## Math.abs
 
@@ -147,9 +165,13 @@ For example:
 
 So, you can see even though 5-10 is -5, because of the absolute value, it returns 5.  This method is convenient when you need to know the difference between two numbers, like when you need to know the distance between two points.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wqFoSl8cDDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/wqFoSl8cDDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 Are there any others that are useful?  How about Math.PI?
+</div>
+
+<div id="pi" class="tabcontent" >
+<div class="tabhtml" markdown="1">
 
 ## Math.PI
 
@@ -178,9 +200,13 @@ It is handy when trying to figure out which direction players should turn in gam
 </html>
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hLwKsR7YX-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/hLwKsR7YX-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 Another handy method is the round method.
+</div>
+
+<div id="round" class="tabcontent" >
+<div class="tabhtml" markdown="1">
 
 ## Math.round
 
@@ -208,9 +234,13 @@ Math.round performs rounding for you, so you don't have to create an if statemen
 
 In this case, it will return 4, and if you were to change the .9 to something below 5, then it will return 3.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IN8tjxH8cuc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/IN8tjxH8cuc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 Another method that you might need is Math.pow.
+</div>
+
+<div id="pow" class="tabcontent" >
+<div class="tabhtml" markdown="1">
 
 ## Math.pow
 
@@ -237,9 +267,13 @@ Here's an example:
 </html>
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zhBhAzROKN4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/zhBhAzROKN4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 The last one we will look at for now is the Math.sqrt.
+</div>
+
+<div id="sqrt" class="tabcontent" >
+<div class="tabhtml" markdown="1">
 
 ## Math.sqrt
 
@@ -266,10 +300,13 @@ When we square a number like 2*2, we get 4.  But what about the square root?  To
 
 When you ran this code, what did you get?  Did you get 4?  Good!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YJkL-faZbjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/YJkL-faZbjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 That's it for this week. Let's do some more hand-on work and your homework.  As always, let me know if you have more questions!
+</div>
 
+<div id="ToDo" class="tabcontent" >
+<div class="tabhtml" markdown="1">
 ## Interactive JS Console
 
 While you work on this chapter, you should use the following interactive JS console to test.
@@ -295,3 +332,5 @@ While you work on this chapter, you should use the following interactive JS cons
 </script>
 
 That's it for this week.  Let's do some more hand-on work and your homework.  As always let me know if you have more questions!
+</div>
+</div>
