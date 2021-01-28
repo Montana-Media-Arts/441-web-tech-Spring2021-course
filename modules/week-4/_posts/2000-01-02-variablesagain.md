@@ -92,7 +92,9 @@ We need to add some JavaScript to access the DOM (quick check, you remember the 
 
 <div id="ToDo" class="tabcontent" >
 <div class="tabhtml" markdown="1">
-Feel free to explore the code and make changes on CodePen
+Feel free to explore the code and make changes on CodePen.  
+
+Click on **Edit on CodePen** to experiment.
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="retrog4m3r" data-slug-hash="qBqWeQK" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MART 441 Variable Example">
   <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/qBqWeQK">

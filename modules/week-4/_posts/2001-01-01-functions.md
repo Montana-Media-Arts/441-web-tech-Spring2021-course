@@ -278,7 +278,7 @@ To get started, please read the following, which cover the usage and definition 
 <div id="ToDo" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
-Please feel free to experiment with the code from the other tabs.
+Please feel free to experiment with the code from the other tabs. Click on **Edit on CodePen** to experiment.
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="retrog4m3r" data-slug-hash="OJbJLvb" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MART 441 Workspace">
   <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/OJbJLvb">
