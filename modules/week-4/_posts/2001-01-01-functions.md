@@ -12,7 +12,7 @@ jotted: true
   <button class="tablinks" onclick="openTab(event, 'Defining')">Defining</button>
   <button class="tablinks" onclick="openTab(event, 'Parameters')">Parameters</button>
   <button class="tablinks" onclick="openTab(event, 'Example')">Example</button>
-  <button class="tablinks" onclick="openTab(event, 'Expressions')">Expressions</button>
+  <button class="tablinks" onclick="openTab(event, 'Expression')">Expressions</button>
   <button class="tablinks" onclick="openTab(event, 'Reading')">Reading</button>
   <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
 </div>
