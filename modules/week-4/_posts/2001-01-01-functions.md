@@ -6,6 +6,18 @@ jotted: true
 
 # Functions In More Depth
 
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'Calling')">Calling</button>
+  <button class="tablinks" onclick="openTab(event, 'Defining')">Defining</button>
+  <button class="tablinks" onclick="openTab(event, 'Parameters')">Parameters</button>
+  <button class="tablinks" onclick="openTab(event, 'Example')">Example</button>
+  <button class="tablinks" onclick="openTab(event, 'Expressions')">Expressions</button>
+  <button class="tablinks" onclick="openTab(event, 'Reading')">Reading</button>
+  <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
+</div>
+<div id="Overview" class="tabcontent" style="display:block"  markdown="1">
+
 We have already learned that _Functions_ are one of the basic building blocks of programming.  Functions _do something_ in code. They compute values and return data to the main program, or do something else as a side-effect to the main program.
 
 The Mozilla Developer Network (MDN) defines functions as follows;
@@ -25,6 +37,11 @@ window.alert("Hi there!");
 ```
 
 There are many "builtin" functions to JavaScript, which you will learn about and use as you progress.
+
+</div>
+<div id="Calling" class="tabcontent" >
+<div class="tabhtml" markdown="1">
+
 
 JavaScript also allows you to define and use _your own custom_ functions. Custom functions are critical techniques for writing well structured and maintainable code. As such, you will spend a lot of time this week learning about writing functions and how to use them.
 
@@ -46,6 +63,11 @@ Within the function operator, you can supply _parameters_ to the function.  Thes
 doSomething( param1, param2 );
 ```
 
+</div>
+</div>
+
+<div id="Defining" class="tabcontent" >
+<div class="tabhtml" markdown="1">
 ## Defining Functions
 
 There are generally three ways to define your functions in JS.
@@ -121,6 +143,13 @@ That is the most common way in which you can create a function.  There are other
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A48w8znhujU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+</div>
+</div>
+
+<div id="Parameters" class="tabcontent" >
+<div class="tabhtml" markdown="1">
+
 The only other thing we are going to examine is parameters.  Functions with parameters look like this.
 
 ```html
@@ -147,6 +176,12 @@ So, we are sending in the **getName(greeting)** greeting parameter, which means 
 Also, notice single quotes surround the message sent into the getName function **onclick="getName('Nice to meet you');"**  Why is that?  It's because the double quotes start and end the call to the function and so we can't use double quotes again.  However, we can use single quotes.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gzbSPipixbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+</div>
+
+<div id="Example" class="tabcontent" >
+<div class="tabhtml" markdown="1">
 
 Below is another example
 
@@ -182,7 +217,11 @@ console.log(val);
 });
 </script>
 
+</div>
+</div>
 
+<div id="Expression" class="tabcontent" >
+<div class="tabhtml" markdown="1">
 #### Function Expression
 
 The second way of defining functions is through _function expressions_; these assign a function to a binding namespace (i.e., a variable).
@@ -218,7 +257,11 @@ console.log( result );
 
 _Function Expressions_ work the same as _Function Definitions_; the primary difference is that _Function Expressions_ must be defined **before** calling them. _Function Definitions_ are **hoisted** to the top of the JS interpreter and can be placed anywhere in the code, even after their initial call because they are compiled first.
 
+</div>
+</div>
 
+<div id="Reading" class="tabcontent" >
+<div class="tabhtml" markdown="1">
 ## Reading
 
 To get started, please read the following, which cover the usage and definition of functions in great detail;
@@ -228,9 +271,14 @@ To get started, please read the following, which cover the usage and definition 
 - **JavaScript Guide.** MDN web docs. 2018. Web.
     - [_Functions_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
+</div>
+</div>
+
+<div id="ToDo" class="tabcontent" >
+<div class="tabhtml" markdown="1">
+
 ## Interactive JS Console
 
-While you work on this chapter, you should use the following interactive JS console to test.
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 
@@ -251,3 +299,6 @@ While you work on this chapter, you should use the following interactive JS cons
     ]
 });
 </script>
+
+</div>
+</div>
