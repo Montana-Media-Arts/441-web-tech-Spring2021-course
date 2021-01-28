@@ -221,6 +221,7 @@ console.log(val);
 
 <div id="Expression" class="tabcontent" >
 <div class="tabhtml" markdown="1">
+
 #### Function Expression
 
 The second way of defining functions is through _function expressions_; these assign a function to a binding namespace (i.e., a variable).
@@ -261,6 +262,7 @@ _Function Expressions_ work the same as _Function Definitions_; the primary diff
 
 <div id="Reading" class="tabcontent" >
 <div class="tabhtml" markdown="1">
+
 ## Reading
 
 To get started, please read the following, which cover the usage and definition of functions in great detail;
