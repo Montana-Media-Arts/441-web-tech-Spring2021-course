@@ -50,7 +50,7 @@ If we look at them in JavaScript, they will look like this
 
 Did you try it out?  It should print out the message.  What happens if it's above 40?  What about if it's equal to 40?
 
-<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/gzbSPipixbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/bUC0wf7haKw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 The other side of the if statement is the else.  Notice, the block inside of the if only executes if it's true.  However, with the else, we can do something if it's false.  Take a look below.
 
