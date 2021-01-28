@@ -278,28 +278,14 @@ To get started, please read the following, which cover the usage and definition 
 <div id="ToDo" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
-## Interactive JS Console
+Please feel free to experiment with the code from the other tabs.
 
-
-<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
-
-<script>
-    new Jotted(document.querySelector("#jotted-demo-1"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            content: "// Your test code here!\n\n\n"
-        }
-    ],
-    showBlank: false,
-    showResult: false,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 50 } },
-        { name: 'console', options: { autoClear: false } },
-    ]
-});
-</script>
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="retrog4m3r" data-slug-hash="OJbJLvb" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MART 441 Workspace">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/OJbJLvb">
+  MART 441 Workspace</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 </div>
 </div>
