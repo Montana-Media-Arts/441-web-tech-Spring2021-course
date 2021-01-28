@@ -11,7 +11,7 @@ jotted: true
   <button class="tablinks" onclick="openTab(event, 'abs')">Math.abs</button>
   <button class="tablinks" onclick="openTab(event, 'pi')">Math.PI</button>
   <button class="tablinks" onclick="openTab(event, 'round')">Math.round</button>
-  <button class="tablinks" onclick="openTab(event, 'pow')">Math.round</button>
+  <button class="tablinks" onclick="openTab(event, 'pow')">Math.pow</button>
   <button class="tablinks" onclick="openTab(event, 'sqrt')">Math.sqrt</button>
   <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
 </div>
