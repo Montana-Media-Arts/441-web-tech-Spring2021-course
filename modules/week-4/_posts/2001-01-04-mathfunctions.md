@@ -132,7 +132,7 @@ Oh, yes, and one more thing.  There is a **return** in the method getARandomNumb
 
 What other methods are there?
 </div>
-
+</div>
 <div id="abs" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
@@ -167,7 +167,7 @@ So, you can see even though 5-10 is -5, because of the absolute value, it return
 
 Are there any others that are useful?  How about Math.PI?
 </div>
-
+</div>
 <div id="pi" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
@@ -202,7 +202,7 @@ It is handy when trying to figure out which direction players should turn in gam
 
 Another handy method is the round method.
 </div>
-
+</div>
 <div id="round" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
@@ -236,7 +236,7 @@ In this case, it will return 4, and if you were to change the .9 to something be
 
 Another method that you might need is Math.pow.
 </div>
-
+</div>
 <div id="pow" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
@@ -269,7 +269,7 @@ Here's an example:
 
 The last one we will look at for now is the Math.sqrt.
 </div>
-
+</div>
 <div id="sqrt" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
@@ -302,9 +302,10 @@ When you ran this code, what did you get?  Did you get 4?  Good!
 
 That's it for this week. Let's do some more hand-on work and your homework.  As always, let me know if you have more questions!
 </div>
-
+</div>
 <div id="ToDo" class="tabcontent" >
 <div class="tabhtml" markdown="1">
+
 ## Interactive JS Console
 
 While you work on this chapter, you should use the following interactive JS console to test.
