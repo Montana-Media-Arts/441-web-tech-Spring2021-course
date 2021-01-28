@@ -85,8 +85,8 @@ We need to add some JavaScript to access the DOM (quick check, you remember the 
 <div id="Video" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/g2SFQfttRYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g2SFQfttRYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
