@@ -29,8 +29,6 @@ The beautiful thing about most languages and JavaScript is no different is that 
 
 The Math class is a class built by someone else and is automatically available to us by just making a call to math.  Some of the functions are listed below.
 
-## Random
-
 Random is one of the most common math functions used because coming up with random numbers is hard to do.  So, how does one use random?
 
 They work something like this:
