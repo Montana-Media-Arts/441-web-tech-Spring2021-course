@@ -87,7 +87,7 @@ The first page uses the **getElementById** to get the information and then pass 
 
 Then in the second page, you can get the information by using the **location.search** along with the **URLSearchParams** class (don't worry about that yet; we will talk about that at greater length later).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6bsF1D3i_vY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/6bsF1D3i_vY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 </div>
 </div>
@@ -113,6 +113,7 @@ This technique also needs two pages.  The first page looks like this:
     </body>
 </html>
 ```
+
 </div>
 </div>
 
@@ -153,8 +154,6 @@ This time, we have just a form with no JavaScript.  We use the **action** and **
 <div id="video" class="tabcontent">
 <div class="tabhtml" markdown="1">
 
-<div id="Video" class="tabcontent">
-<div class="tabhtml" markdown="1">
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/Z2O1wLnNC-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 
