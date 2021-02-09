@@ -48,6 +48,7 @@ So, how does it work?  Here is the syntax of the two files required:
     </body>
 </html>
 ```
+
 </div>
 </div>
 
