@@ -49,7 +49,8 @@ So, what else can we do with arrays?  Well, last week, we looked at the **push**
 </html>
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c0wjad5kNHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/c0wjad5kNHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 </div>
 </div>
 
@@ -104,7 +105,9 @@ Here is the syntax which shows how it works:
 ```
 Keep in mind that the **whatsLeftInArray** prints out all the elements except for **Item4** because it was popped off.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-N__3KdXMrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/-N__3KdXMrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
 </div>
 </div>
 
@@ -147,7 +150,8 @@ Know that this is different from **deleting** an item from an array.  If you del
 </html>
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uwINAXU66Kw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/uwINAXU66Kw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 </div>
 </div>
 
@@ -183,7 +187,8 @@ Another interesting aspect of JavaScript arrays is that you can add not only str
 </html>
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mC4obhKrrPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/mC4obhKrrPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 </div>
 </div>
 
@@ -214,7 +219,8 @@ So, what if we have two arrays and we want to put them together?  That is where 
 </html>
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5uTy3_W-d5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/5uTy3_W-d5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 </div>
 </div>
 
