@@ -5,8 +5,25 @@ jotted: false
 ---
 
 # Review Arrays
-
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'push')">push</button>
+  <button class="tablinks" onclick="openTab(event, 'pop')">pop</button>
+  <button class="tablinks" onclick="openTab(event, 'delete')">delete</button>
+  <button class="tablinks" onclick="openTab(event, 'functions')">functions</button>
+  <button class="tablinks" onclick="openTab(event, 'concat')">concat</button>
+  <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
+</div>
+<div id="Overview" class="tabcontent" style="display:block">
+<div class="tabhtml" markdown="1">
 Hopefully, by now, you have found arrays to be quite handy.  Even in your memory game with only ten values in your array, it would be quite cumbersome if you had five variables for your images, another ten variables for your actual pictures, etc.  Remember, I could ask you to change your program so that it had like 30 images (15 real images times 2).  Yikes! So many variables if you don't use arrays.
+
+</div>
+</div>
+
+<div id="push" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
 
 So, what else can we do with arrays?  Well, last week, we looked at the **push** function, which allowed us to add items to our array.  Its syntax was like this:
 
@@ -33,7 +50,11 @@ So, what else can we do with arrays?  Well, last week, we looked at the **push**
 ```
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c0wjad5kNHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
 
+<div id="pop" class="tabcontent">
+<div class="tabhtml" markdown="1">
 The opposite of this is **pop**.  Names are added to the stack in a last in first out model **LIFO**.  So, think of it as a deck of cards or a stack of plates.  As you push onto the stack, you place an item on the top.  Then, if you call the pop function, the last thing added is removed.
 
 Here is the syntax which shows how it works:
@@ -84,7 +105,11 @@ Here is the syntax which shows how it works:
 Keep in mind that the **whatsLeftInArray** prints out all the elements except for **Item4** because it was popped off.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-N__3KdXMrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
 
+<div id="delete" class="tabcontent">
+<div class="tabhtml" markdown="1">
 Know that this is different from **deleting** an item from an array.  If you delete an item, it sets the value to undefined, but the index still exists in the array.  For example:
 
 ```html
@@ -123,7 +148,11 @@ Know that this is different from **deleting** an item from an array.  If you del
 ```
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uwINAXU66Kw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
 
+<div id="functions" class="tabcontent">
+<div class="tabhtml" markdown="1">
 Another interesting aspect of JavaScript arrays is that you can add not only strings, numbers, and objects, but also **functions**.  Adding functions to arrays means we can add functionality to an array.  That's crazy!  Here is the syntax for it:
 
 ```html
@@ -155,7 +184,11 @@ Another interesting aspect of JavaScript arrays is that you can add not only str
 ```
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mC4obhKrrPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
 
+<div id="concat" class="tabcontent">
+<div class="tabhtml" markdown="1">
 So, what if we have two arrays and we want to put them together?  That is where the **concat** function comes in.  You already know the **concatenation** term from strings.  Concat is no different; it just goes through and combines two (or more) arrays.  Here is the syntax for two arrays:
 
 ```html
@@ -182,9 +215,31 @@ So, what if we have two arrays and we want to put them together?  That is where 
 ```
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5uTy3_W-d5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
 
+<div id="references" class="tabcontent">
+<div class="tabhtml" markdown="1">
 There are many more functions that may help you along the way.  I recommend taking a look at these two links:
 
 [Array Functions](https://www.w3schools.com/js/js_array_methods.asp)
 
 [Array Sorting Functions](https://www.w3schools.com/js/js_array_sort.asp)
+</div>
+</div>
+
+<div id="ToDo" class="tabcontent">
+<div class="tabhtml" markdown="1">
+Please feel free to experiment with the code from the other tabs.
+
+Click on **Edit on CodePen** to experiment.
+
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="retrog4m3r" data-slug-hash="OJbJLvb" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MART 441 Workspace">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/OJbJLvb">
+  MART 441 Workspace</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</div>
+</div>
+
