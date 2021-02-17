@@ -9,7 +9,7 @@ jotted: false
 <div class="tab">
     <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
     <button class="tablinks" onclick="openTab(event, 'access')">Access</button>
-    <button class="tablinks" onclick="openTab(event, 'calling')">Forget</button>
+    <button class="tablinks" onclick="openTab(event, 'calling')">Calling</button>
     <button class="tablinks" onclick="openTab(event, 'todo')">To Do</button>
 </div>
 <div id="Overview" class="tabcontent" style="display:block">
@@ -65,9 +65,9 @@ myPerson.hairColor = "purple"; // ← sets the value of the property to purple
 Object function use the _dot notation_.   Parenthesis is always added to the function name, regardless of whether input parameters are being passed into the function.
 
 ```js
-myPerson.walk(); // ← executes myPerson's method, 'walk'.
+myPerson.walk(); // ← executes myPerson's function, 'walk'.
 
-myPerson.timeToTravel(distance); // ← execute the method and pass it one input parameter value.
+myPerson.timeToTravel(distance); // ← execute the function and pass it one input parameter value.
 ```
 <br/>
 
@@ -78,6 +78,14 @@ myPerson.timeToTravel(distance); // ← execute the method and pass it one input
 
 <div id="todo" class="tabcontent">
 <div class="tabhtml" markdown="1">
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="retrog4m3r" data-slug-hash="XWNRwxz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Person class - Accessing Properties and Functions">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/XWNRwxz">
+  Person class - Accessing Properties and Functions</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 </div>
 </div>
 

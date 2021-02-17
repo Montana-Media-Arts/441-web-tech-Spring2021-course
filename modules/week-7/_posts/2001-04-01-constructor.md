@@ -4,7 +4,7 @@ module: 7
 jotted: false
 ---
 
-# Class Constructor Methods
+# Class Constructor
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
   <button class="tablinks" onclick="openTab(event, 'purpose')">Purpose</button>
@@ -14,9 +14,9 @@ jotted: false
 <div id="Overview" class="tabcontent" style="display:block">
 <div class="tabhtml" markdown="1">
 
-In every class definition written, there should be at least one method; that is the `constructor` method. Furthermore, typically this should be the first method defined. It doesn't have to be, but by convention and for readability, it is usually the first thing in the class.
+In every class definition written, there should be at least one function; that is the `constructor` function. Furthermore, typically this should be the first function defined. It doesn't have to be, but by convention and for readability, it is usually the first thing in the class.
 
-The constructor method **is always** called by JavaScript when creating a new object from a class. Therefore, you **must** have a constructor method.  What is the constructor, you say?  Well, think of the word construct.  What does that mean?  It means to build or construct. So, what the constructor is doing is creating the object from the class.  Cool huh?
+The constructor **is always** called by JavaScript when creating a new object from a class. Therefore, you **must** have a constructor.  What is the constructor, you say?  Well, think of the word construct.  What does that mean?  It means to build or construct. So, what the constructor is doing is creating the object from the class.  Cool huh?
 
 </div>
 </div>
@@ -53,9 +53,9 @@ So our example might look like:
 // a class definition
 class Person {
 
-    // constructor method
+    // constructor
     constructor( eyeColor, numberOfLegs, numberOfArms, hairColor ) {
-        // method function block
+        // function block
         // Do stuff here to create an object
         console.log(eyeColor);
     }
@@ -70,6 +70,13 @@ class Person {
 
 <div id="todo" class="tabcontent">
 <div class="tabhtml" markdown="1">
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="retrog4m3r" data-slug-hash="VwmbOQE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Person class - Constructor">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/VwmbOQE">
+  Person class - Constructor</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 </div>
 </div>

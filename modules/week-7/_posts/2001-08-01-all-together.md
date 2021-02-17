@@ -49,7 +49,7 @@ class Person {
 
 So, we should also consider what a person can do.  That is what we did in the previous section. They could walk and get the timeToTravel.
 
-For our example, let's have our main properties eyeColor and hairColor, and then the methods or functions be walk and timeToTravel.
+For our example, let's have our main properties eyeColor and hairColor, and then the methods/functions be walk and timeToTravel.
 
 - eye color that is brown
 - hair color that is blonde
@@ -66,7 +66,7 @@ These specifications can help us determine the properties the Person will need. 
 - a walking speed property
 - a distance property
 
-Below is the following constructor method.
+Below is the following constructor.
 
 ```js
 class Person {
@@ -90,8 +90,8 @@ class Person {
 The next step might be to start writing the functions that this class may need. Since we are trying to write modular, highly-readable code, we want to try and write functions that do individual, well-defined tasks. With that in mind, we can think about what people can do.
 
 - Want to see the properties of the Person.
-- A walking method
-- A time to travel method.
+- A walking function
+- A time to travel function.
 
 With this in mind, let's write three functions.
 
@@ -103,9 +103,9 @@ With this in mind, let's write three functions.
 
 #### toString
 
-The first of these we may want to write is the method to display the parameters of the Person. toString is the most common method in any language.  You can find this method in most Object-Oriented programming languages.
+The first of these we may want to write is the function to display the parameters of the Person. toString is the most common function in any language.  You can find this function in most Object-Oriented programming languages.
 
-In this method, we need to access the Person's eyeColor, hairColor, speed, and distance properties and returned as a string.
+In this function, we need to access the Person's eyeColor, hairColor, speed, and distance properties and returned as a string.
 
 ```js
 toString() {
@@ -120,7 +120,7 @@ toString() {
 
 #### Person walking
 
-To walk, the Person will need a walking method.
+To walk, the Person will need a walking function.
 
 ```js
 walk() {
@@ -221,7 +221,7 @@ To create and use a Person object in JS, we will need to;
 
 - create a variable to store a reference to the object in
 - create a new object and store it in the variable
-- call the object's methods
+- call the object's functions
 
 
 #### Create a Variable
@@ -240,12 +240,12 @@ Next, we will create a new Person object and then bind this object to `myPerson`
 myPerson = new Person( 'blue', 'brown',3,10);
 ```
 
-#### Call the Person's Methods
+#### Call the Person's functions
 
 Finally, we can use our Person object.
 
 
-Look how clean and straightforward that code below looks! It is so easy to read and understand. By abstracting the Person into a class, we can create a person object that we can call the methods from each of those objects. Each one makes sense and is readable!
+Look how clean and straightforward that code below looks! It is so easy to read and understand. By abstracting the Person into a class, we can create a person object that we can call the functions from each of those objects. Each one makes sense and is readable!
 
 ```html
 <html>
@@ -313,6 +313,13 @@ Look how clean and straightforward that code below looks! It is so easy to read 
 
 <div id="todo" class="tabcontent">
 <div class="tabhtml" markdown="1">
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="retrog4m3r" data-slug-hash="VwmbOVq" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Classes and Objects - Full Example">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/VwmbOVq">
+  Classes and Objects - Full Example</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 </div>
 </div>
