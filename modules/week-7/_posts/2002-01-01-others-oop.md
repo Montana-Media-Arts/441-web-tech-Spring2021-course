@@ -6,11 +6,15 @@ jotted: false
 
 # Resources on OOP
 
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+</div>
+<div id="Overview" class="tabcontent" style="display:block">
+<div class="tabhtml" markdown="1">
 Now that you have had an introduction to some of the ideas and larger implementations of OOP in JavaScript, here is some more reading with even more detailed explanations. **Thank you, Dr. Musick, for these!**
 
 - Haverbeke, Marijn. **Eloquent JavaScript: A Modern Introduction to Programming.** 3rd Edition. N.p., 2018. Web.
-    - [_Chapter 6; The Secret Life of Objects_](https://eloquentjavascript.net/3rd_edition/06_object.html)
-
+    - <a href="https://eloquentjavascript.net/3rd_edition/06_object.html" target="_new">Chapter 6 The Secret Life of Objects</a>
 
 # 4 Videos
 
@@ -39,3 +43,6 @@ Dan Shiffman returns with his take on OOP. Please ignore the bits of code that d
 This last video does an excellent job of introducing the terminology of OOP.
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1wJfIUcVWlA" frameborder="0" allowfullscreen></iframe></div>
+
+</div>
+</div>

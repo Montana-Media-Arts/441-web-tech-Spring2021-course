@@ -6,7 +6,26 @@ jotted: true
 
 # An Example using Classes and Objects
 
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'define')">Define</button>
+    <button class="tablinks" onclick="openTab(event, 'functions')">Functions</button>
+    <button class="tablinks" onclick="openTab(event, 'three')">Three Functions</button>
+     <button class="tablinks" onclick="openTab(event, 'getset')">Get/Set</button>
+      <button class="tablinks" onclick="openTab(event, 'together')">Together</button>
+       <button class="tablinks" onclick="openTab(event, 'create')">Create</button>
+    <button class="tablinks" onclick="openTab(event, 'todo')">To Do</button>
+</div>
+<div id="Overview" class="tabcontent" style="display:block">
+<div class="tabhtml" markdown="1">
+
 Let's finish out the Person class example so that you can see all of this in use.
+
+</div>
+</div>
+
+<div id="define" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 ## Define a Class
 
@@ -19,6 +38,12 @@ class Person {
     }
 }
 ```
+
+</div>
+</div>
+
+<div id="properties" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 ## Consider Object Properties
 
@@ -54,15 +79,27 @@ class Person {
 }
 ```
 
-## Consider Object Methods
+</div>
+</div>
 
-The next step might be to start writing the methods objects of this class may need. Since we are trying to write modular, highly-readable code, we want to try and write methods that do individual, well-defined tasks. With that in mind, we can think about what people can do.
+<div id="functions" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
+## Consider Object Functions
+
+The next step might be to start writing the functions that this class may need. Since we are trying to write modular, highly-readable code, we want to try and write functions that do individual, well-defined tasks. With that in mind, we can think about what people can do.
 
 - Want to see the properties of the Person.
 - A walking method
 - A time to travel method.
 
-With this in mind, let's write three methods.
+With this in mind, let's write three functions.
+
+</div>
+</div>
+
+<div id="three" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 #### toString
 
@@ -78,7 +115,8 @@ toString() {
 }
 ```
 <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZsP8v5D1ur4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZsP8v5D1ur4" frameborder="0" allowfullscreen></iframe></div>
 
 #### Person walking
 
@@ -90,9 +128,9 @@ walk() {
 }
 ```
 
-#### Time to travel method
+#### Time to travel function
 
-We may also want to know how long it takes them to travel a certain distance, so we would have a timeToTravel method to calculate this.
+We may also want to know how long it takes them to travel a certain distance, so we would have a timeToTravel function to calculate this.
 
 ```js
 timeToTravel()
@@ -102,12 +140,18 @@ timeToTravel()
 }
 ```
 <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G8zPtAv139U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/G8zPtAv139U" frameborder="0" allowfullscreen></iframe></div>
+
+</div>
+</div>
+
+<div id="getset" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 #### Getters and Setters
 
-Remember when we were talking about changing the values of our properties directly and how that wasn't the best idea?  We want to use getters and setters -- these are special methods -- to make those changes for us.  It helps keep better control over who and when properties are changed. This technique is called **encapsulation**.  It just means we want the class to make changes to our properties, not the outside world.  So, we give access through getters and setters.
+Remember when we were talking about changing the values of our properties directly and how that wasn't the best idea?  We want to use getters and setters -- these are special functions -- to make those changes for us.  It helps keep better control over who and when properties are changed. This technique is called **encapsulation**.  It just means we want the class to make changes to our properties, not the outside world.  So, we give access through getters and setters.
 
 An example would be something like this:
 
@@ -120,7 +164,14 @@ An example would be something like this:
     }
 ```
 <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jxKCJP51Rl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jxKCJP51Rl8" frameborder="0" allowfullscreen></iframe></div>
+
+</div>
+</div>
+
+<div id="together" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 #### Altogether
 
@@ -157,6 +208,12 @@ class Person {
     }
 }
 ```
+
+</div>
+</div>
+
+<div id="create" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 # Creating and Using a Person Object
 
@@ -248,4 +305,14 @@ Look how clean and straightforward that code below looks! It is so easy to read 
 </html>
 ```
 <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hf-z7przdp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hf-z7przdp0" frameborder="0" allowfullscreen></iframe></div>
+
+</div>
+</div>
+
+<div id="todo" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
+</div>
+</div>
