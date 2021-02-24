@@ -4,6 +4,8 @@ module: 8
 jotted: false
 ---
 
+# More Resources 
+
 Here are some more resources on even more libraries.
 
 To read more about libraries, please visit the following links. (NOTE: the following can be found from the first link, or you can use these direct links.)
