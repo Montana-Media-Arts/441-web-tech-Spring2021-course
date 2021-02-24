@@ -10,6 +10,7 @@ jotted: false
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
 <button class="tablinks" onclick="openTab(event, 'example')">Example</button>
 <button class="tablinks" onclick="openTab(event, 'other')">Other Methods</button>
+<button class="tablinks" onclick="openTab(event, 'todo')">To Do</button>
 
 </div>
 <div id="Overview" class="tabcontent" style="display:block">
@@ -115,5 +116,19 @@ Again, we are just updating the style of this particular tag, but in a cooler wa
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/72rOPWTTiYA" frameborder="0" allowfullscreen></iframe></div>
 
+</div>
+</div>
+
+<div id="todo" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
+Click on "Edit on CodePen" to edit and work with the code.
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="retrog4m3r" data-slug-hash="ZEBvOqp" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="jQuery Example 2">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/ZEBvOqp">
+  jQuery Example 2</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 </div>
 </div>

@@ -16,6 +16,7 @@ jotted: false
   <button class="tablinks" onclick="openTab(event, 'specificid')">Specific id</button>
   <button class="tablinks" onclick="openTab(event, 'this')">this</button>
   <button class="tablinks" onclick="openTab(event, 'example')">Example</button>
+   <button class="tablinks" onclick="openTab(event, 'todo')">To Do</button>
 </div>
 <div id="Overview" class="tabcontent" style="display:block">
 <div class="tabhtml" markdown="1">
@@ -270,5 +271,18 @@ So, what is really happening behind the scenes?  Does it really remove the item?
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GyYDWOJnncg" frameborder="0" allowfullscreen></iframe></div>
 
 So, where do we go from here?  Let's go to the next page and find out!
+</div>
+</div>
+<div id="todo" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
+Click on "Edit on CodePen" to edit and work with the code.
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="retrog4m3r" data-slug-hash="eYByzjd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="jQuery Example 1">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/eYByzjd">
+  jQuery Example 1</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 </div>
 </div>
