@@ -6,6 +6,14 @@ jotted: false
 
 # Using External Libraries
 
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+<button class="tablinks" onclick="openTab(event, 'external')">External Libraries</button>
+  <button class="tablinks" onclick="openTab(event, 'video')">Video</button>
+</div>
+<div id="Overview" class="tabcontent" style="display:block">
+<div class="tabhtml" markdown="1">
+
 In order to use a JS Library, you need to link to your web application via a script tag in your HTML file. This is similar to how you link to the JavaScript files you write for these web apps. You have done this before which is good!
 
 Generally, there are two ways of linking to and using a library.
@@ -19,6 +27,12 @@ Generally, there are two ways of linking to and using a library.
 
 When linking to the JavaScript library file in your HTML, your web application will load the library, as well as its associated functions or global variables. They are then ready for your use! If you have taken MART120 - Creative Coding, you also have been using the p5.js library in this way. The `setup()` and `draw()` functions are both part of the p5.js library. When we call in p5, either via a file or CDN, these functions get exposed to the global environment for use by JS.
 
+</div>
+</div>
+
+<div id="external" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
 # Learning External Libraries
 
 Obviously, there is slightly more to using an external JS library than just including it in your code. Somehow, you have to learn the available functions, tools, classes, and such that make up the library. To do this you will rely usually on 2-3 sources.
@@ -30,4 +44,14 @@ Obviously, there is slightly more to using an external JS library than just incl
 3. Unofficial examples or tutorials.
     - Popular libraries that have garnered a large user-base or following will also often have unofficial tutorials and examples of the library. For developers, creating these types of resources allows them to practice using the library and gain a deeper understanding of it. It may also increase the ability to get other jobs or work on specific projects. As with anything on the internet, these types of resources can be "hit and miss", with some providing great content, and others not.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nphtrP6ICQw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="video" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nphtrP6ICQw" frameborder="0" allowfullscreen></iframe></div>
+
+</div>
+</div>
+

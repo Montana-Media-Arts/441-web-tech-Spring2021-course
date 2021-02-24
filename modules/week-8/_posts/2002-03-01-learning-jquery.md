@@ -6,6 +6,15 @@ jotted: false
 
 # Learning jQuery
 
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+<button class="tablinks" onclick="openTab(event, 'example')">Example</button>
+<button class="tablinks" onclick="openTab(event, 'other')">Other Methods</button>
+
+</div>
+<div id="Overview" class="tabcontent" style="display:block">
+<div class="tabhtml" markdown="1">
+
 Previously, we looked at the basics of accessing items through the DOM. What other functions are available to us?  We looked at toggle.  Below are even more methods.
 
 Methods:
@@ -20,6 +29,12 @@ Methods:
 8. animate()
 
 So, how do they function?
+
+</div>
+</div>
+
+<div id="example" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 Here is an example:
 
@@ -53,7 +68,14 @@ Here is an example:
 </html>
 ```
 <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uO4Qxymj26w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uO4Qxymj26w" frameborder="0" allowfullscreen></iframe></div>
+
+</div>
+</div>
+
+<div id="other" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 Now, try some of these other methods and see what happens.  Just replace fadeOut with the name of the function you want to try.
 
@@ -91,4 +113,7 @@ What about animate?  It is a little different than the other methods listed abov
 
 Again, we are just updating the style of this particular tag, but in a cooler way by adjusting its left property.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/72rOPWTTiYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/72rOPWTTiYA" frameborder="0" allowfullscreen></iframe></div>
+
+</div>
+</div>

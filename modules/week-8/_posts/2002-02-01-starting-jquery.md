@@ -8,6 +8,18 @@ jotted: false
 
 ## The jQuery Object
 
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+<button class="tablinks" onclick="openTab(event, 'document')">document</button>
+  <button class="tablinks" onclick="openTab(event, 'selector')">selector</button>
+  <button class="tablinks" onclick="openTab(event, 'buttonclick')">button.click</button>
+  <button class="tablinks" onclick="openTab(event, 'specificid')">Specific id</button>
+  <button class="tablinks" onclick="openTab(event, 'this')">this</button>
+  <button class="tablinks" onclick="openTab(event, 'example')">Example</button>
+</div>
+<div id="Overview" class="tabcontent" style="display:block">
+<div class="tabhtml" markdown="1">
+
 jQuery works from a simple idea that all elements should be easily accessible and manipulatable. To accomplish this, jQuery utilizes a CSS-like selection process for elements. To select an element, a developer needs to pass CSS-like selections to the jQuery selector. The jQuery selector is `$()`, with the CSS selectors being placed within double quotes.
 
 For example, to select all of the `h1` elements on a page, a developer would call the following;
@@ -20,7 +32,13 @@ This will return a jQuery object containing a reference to the all of the matchi
 
 As you will learn, it is from this object that most of your work will occur for jQuery.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8_o6b0wUHIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8_o6b0wUHIU" frameborder="0" allowfullscreen></iframe></div>
+
+</div>
+</div>
+
+<div id="document" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 ## Document Ready
 
@@ -40,9 +58,16 @@ $(function(){
 });
 ```
 <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zOy5hf8GvXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Once, you have a JQuery script in place, you can perform different actions such as manipulate the DOM.
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zOy5hf8GvXE" frameborder="0" allowfullscreen></iframe></div>
+
+Once, you have a jQuery script in place, you can perform different actions such as manipulate the DOM.
+
+</div>
+</div>
+
+<div id="selector" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 One example that we discussed above is changing all the tags at once.  You can use selector **$** with the tag in between the parentheses to change all elements.  One example might be like this:
 
@@ -76,9 +101,15 @@ One example that we discussed above is changing all the tags at once.  You can u
 </html>
 ```
 
-Notice, when you click on the button, it calls this **$("button").click** and then performs the function.  This is new syntax, but it really common in JQuery, so you will see this is many instances.
+</div>
+</div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_imDTAXNC4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div id="buttonclick" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
+Notice, when you click on the button, it calls this **$("button").click** and then performs the function.  This is new syntax, but it really common in jQuery, so you will see this is many instances.
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_imDTAXNC4c" frameborder="0" allowfullscreen></iframe></div>
 
 We can also find something by id by using the **$** and then the **#** aka hashtag - the cool kids use this.  This should look familiar.  From CSS right?
 
@@ -112,9 +143,15 @@ We can also find something by id by using the **$** and then the **#** aka hasht
 </html>
 ```
 
+</div>
+</div>
+
+<div id="specificid" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
 This time only the paragraph with the id **infoid** will disappear while the other **p** tag remains visible.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wd5AHOC1Z6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Wd5AHOC1Z6Q" frameborder="0" allowfullscreen></iframe></div>
 
 You can also find items by their class name and you guessed it, you use the dot `.` to find it.  For example, it might look like this:
 
@@ -148,7 +185,14 @@ You can also find items by their class name and you guessed it, you use the dot 
 </html>
 ```
 <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BPDwcA6RKeM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BPDwcA6RKeM" frameborder="0" allowfullscreen></iframe></div>
+
+</div>
+</div>
+
+<div id="this" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 What if we want to find the item that was just clicked? Well, you are in luck!  You can use the `this` keyword and it will find the item that was just accessed.  For example, it will look like this:
 
@@ -182,7 +226,13 @@ What if we want to find the item that was just clicked? Well, you are in luck!  
 </html>
 ```
 <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1CRjAS0CF1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1CRjAS0CF1Y" frameborder="0" allowfullscreen></iframe></div>
+
+</div>
+</div>
+
+<div id="example" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 So, what is really happening behind the scenes?  Does it really remove the item?  I hope not! It's just setting its style to display:none.  What that means is that we can use another method called toggle and that will make items appear and disappear each time the button is clicked.  For example, you might see something like this:
 
@@ -216,6 +266,9 @@ So, what is really happening behind the scenes?  Does it really remove the item?
 </html>
 ```
 <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GyYDWOJnncg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GyYDWOJnncg" frameborder="0" allowfullscreen></iframe></div>
 
 So, where do we go from here?  Let's go to the next page and find out!
+</div>
+</div>
