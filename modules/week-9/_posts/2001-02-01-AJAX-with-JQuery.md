@@ -6,6 +6,15 @@ jotted: false
 
 # AJAX with jQuery
 
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+
+  <button class="tablinks" onclick="openTab(event, 'jqueryexample')">jQuery Example</button>
+
+</div>
+<div id="Overview" class="tabcontent" style="display:block">
+<div class="tabhtml" markdown="1">
+
 The previous examples were a little more complicated, wouldn't you agree?  How does JQuery help us with that?
 
 Let's look at an example:
@@ -34,11 +43,17 @@ Let's look at an example:
 ```
 <br/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hX2sMTCjOxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hX2sMTCjOxA" frameborder="0" allowfullscreen></iframe></div>
 
 The basic syntax of the JQuery AJAX call looks like this.
 
 `$(selector).load(URL,data,callback);`
+
+</div>
+</div>
+
+<div id="jqueryexample" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 The previous code shows how we can access elements using the jQuery selector, load some data from a URL, send data parameters, which are optional, and then add an optional callback function when the load is complete.
 
@@ -74,6 +89,10 @@ So, we could do something like this:
 Here we execute a function after the data is retrieved and displayed.  Cool eh?
 
 There are even more jQuery functions that you can use, but I will refer you to W3Schools to check them out.
-[W3Schools JQuery AJAX](https://www.w3schools.com/jquery/jquery_ref_ajax.asp)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m57TJlG7J_g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://www.w3schools.com/jquery/jquery_ref_ajax.asp" target="_new">W3Schools JQuery AJAX</a>
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/m57TJlG7J_g" frameborder="0" allowfullscreen></iframe></div>
+
+</div>
+</div>
