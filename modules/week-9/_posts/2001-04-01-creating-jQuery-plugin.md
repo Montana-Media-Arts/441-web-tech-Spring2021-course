@@ -11,7 +11,8 @@ jotted: false
 
   <button class="tablinks" onclick="openTab(event, 'multipletags')">Multiple Tags</button>
   <button class="tablinks" onclick="openTab(event, 'chaining')">Chaining</button>
-  
+    <button class="tablinks" onclick="openTab(event, 'todo')">To Do</button>
+
 
 </div>
 <div id="Overview" class="tabcontent" style="display:block">
@@ -156,6 +157,39 @@ What this means is that we can do something like this now:
 At this point, you can create a simple jQuery plugin.  Come on, that's pretty cool!
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D-awHrt-Ves" frameborder="0" allowfullscreen></iframe></div>
+
+</div>
+</div>
+
+<div id="todo" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
+#### Basic jQuery Plugin
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="retrog4m3r" data-slug-hash="QWGBgWK" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Basic jQuery Plugin">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/QWGBgWK">
+  Basic jQuery Plugin</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+#### Basic jQuery Plugin 2
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="retrog4m3r" data-slug-hash="GRNBEgK" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Basic jQuery Plugin 2">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/GRNBEgK">
+  Basic jQuery Plugin 2</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+#### Fully qualified jQuery Plugin
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="retrog4m3r" data-slug-hash="YzpjQPM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Fully qualified jQuery Plugin">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/YzpjQPM">
+  Fully qualified jQuery Plugin</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 </div>
 </div>
