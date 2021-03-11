@@ -10,7 +10,7 @@ jotted: true
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
   <button class="tablinks" onclick="openTab(event, 'createclass')">Create a Class</button>
   <button class="tablinks" onclick="openTab(event, 'twoshapes')">Two Shapes</button>
-  <button class="tablinks" onclick="openTab(event, 'movements')">Movement</button>
+  <button class="tablinks" onclick="openTab(event, 'movement')">Movement</button>
   <button class="tablinks" onclick="openTab(event, 'collision')">Collision</button>
   
 </div>
