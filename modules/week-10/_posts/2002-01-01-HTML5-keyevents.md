@@ -96,32 +96,12 @@ Remember `this`?  It's back!  The `this` keyword allows us to check for keyEvent
 
 How can you use the code above to move the square up?  Don't worry about the other directions (yet).
 
-<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
-
-<script>
-    new Jotted(document.querySelector("#jotted-demo-1"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/handsonscript.js"
-        },
-        {
-            type: "html",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/HandsOnExample.html"
-
-    }],
-    showBlank: false,
-    showResult: true,
-    runScripts: true,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 100, "Lines": 100 } },
-        // { name: 'console', options: { autoClear: true } },
-    ]
-});
-</script>
-
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="retrog4m3r" data-slug-hash="NWbeJgo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MART 441 Key Events">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/NWbeJgo">
+  MART 441 Key Events</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 Did you get it to move up? Yes?  Good job!
 
 </div>
@@ -165,31 +145,12 @@ Did you notice I put the drawSquare function in after the if statement?  Why did
 
 Can you put add the other letters? 
 
-<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
-
-<script>
-    new Jotted(document.querySelector("#jotted-demo-2"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/handsonscript.js"
-        },
-        {
-            type: "html",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/HandsOnExample.html"
-
-    }],
-    showBlank: false,
-    showResult: true,
-    runScripts: true,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 100, "Lines": 100 } },
-        // { name: 'console', options: { autoClear: true } },
-    ]
-});
-</script>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="retrog4m3r" data-slug-hash="gOLZEGj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MART 441 Key Events - Up">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/gOLZEGj">
+  MART 441 Key Events - Up</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Did it work? Yes? Great!
 

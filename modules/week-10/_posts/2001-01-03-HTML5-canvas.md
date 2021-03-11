@@ -66,31 +66,12 @@ Let's take a look at the most basic set up of the canvas.  If you want the canva
 
 How can you make a border around the canvas?  Use the code above to make a border so you can see the canvas outline.
 
-<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
-
-<script>
-    new Jotted(document.querySelector("#jotted-demo-1"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/handsonscript.js"
-        },
-        {
-            type: "html",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/HandsOnExample.html"
-
-    }],
-    showBlank: false,
-    showResult: true,
-    runScripts: true,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 100, "Lines": 100 } },
-        // { name: 'console', options: { autoClear: true } },
-    ]
-});
-</script>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="retrog4m3r" data-slug-hash="YzpdgGr" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MART 441 Basic Canvas">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/YzpdgGr">
+  MART 441 Basic Canvas</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Did it work? Yes? Good job!
 
@@ -124,31 +105,12 @@ Now, we can draw something by adding these two lines.  You should see a single b
 
 ### You give it a try!
 
-<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
-
-<script>
-    new Jotted(document.querySelector("#jotted-demo-2"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/handsonscript.js"
-        },
-        {
-            type: "html",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/HandsOnExample.html"
-
-    }],
-    showBlank: false,
-    showResult: true,
-    runScripts: true,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 100, "Lines": 100 } },
-        // { name: 'console', options: { autoClear: true } },
-    ]
-});
-</script>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="retrog4m3r" data-slug-hash="qBqLvqR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MART 441 Canvas Item">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/qBqLvqR">
+  MART 441 Canvas Item</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Did you get a little blue square? Yes? Great!
 
