@@ -104,12 +104,12 @@ How can you use the code above to move the square up?  Don't worry about the oth
         {
             type: "js",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/handsonscript.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/handsonscript.js"
         },
         {
             type: "html",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/HandsOnExample.html"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/HandsOnExample.html"
 
     }],
     showBlank: false,
@@ -173,12 +173,12 @@ Can you put add the other letters?
         {
             type: "js",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/handsonscript.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/handsonscript.js"
         },
         {
             type: "html",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/HandsOnExample.html"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/HandsOnExample.html"
 
     }],
     showBlank: false,

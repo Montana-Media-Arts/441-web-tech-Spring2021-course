@@ -37,7 +37,7 @@ For Audio, the syntax is like this:
         <title>Audio/Video</title>
     </head>
     <body>
-        <audio id="song" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/blob/master/Week%2011/Brahms.mp3" controls="controls">
+        <audio id="song" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Brahms.mp3" controls="controls">
         </audio>
         <br>
     </body>
@@ -61,7 +61,7 @@ Similarly, the video controls work the same way.  The syntax looks like this:
     </head>
     <body>
 
-        <video id="film" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/blob/master/Week%2011/BOOM.mp4" type="video/mp4" controls="true">
+        <video id="film" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/BOOM.mp4" type="video/mp4" controls="true">
         </video>
 
     </body>
@@ -95,12 +95,12 @@ Similarly, the video controls work the same way.  The syntax looks like this:
         {
             type: "js",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/master/Week%2011/handsonscript.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/master/Week%2010/handsonscript.js"
         },
         {
             type: "html",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/master/Week%2011/HandsOnExample.html"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/master/Week%2010/HandsOnExample.html"
 
     }],
     showBlank: false,
@@ -127,14 +127,14 @@ For audio, it looks like this:
 
 ```javascript
     var audio = document.getElementById("song");
-    audio.src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/blob/master/Week%2011/Schubert.mp3";
+    audio.src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Schubert.mp3";
 ```
 
 and for the video, it would like like this:
 
 ```javascript
     var film = document.getElementById("film");
-    film.src="hhttps://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/blob/master/Week%2011/Cat.mp4";
+    film.src="hhttps://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Cat.mp4";
 ```
 
 So, if we put it all together now.  The HTML file would look like this:
@@ -147,10 +147,10 @@ So, if we put it all together now.  The HTML file would look like this:
     </head>
     <body>
 
-        <audio id="song" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/blob/master/Week%2011/Brahms.mp3" controls="controls">
+        <audio id="song" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Brahms.mp3" controls="controls">
         </audio>
         <br>
-        <video id="film" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/blob/master/Week%2011/BOOM.mp4" type="video/mp4" controls="true">
+        <video id="film" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/BOOM.mp4" type="video/mp4" controls="true">
         </video>
 
         <p></p>
@@ -169,13 +169,13 @@ While the JavaScript file would look like this:
 function updateAudio()
 {
     var audio = document.getElementById("song");
-    audio.src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/blob/master/Week%2011/Schubert.mp3";
+    audio.src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Schubert.mp3";
 }
 
 function updateVideo()
 {
     var film = document.getElementById("film");
-    film.src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/blob/master/Week%2011/Cat.mp44";
+    film.src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Cat.mp44";
 }
 ```
 
@@ -203,12 +203,12 @@ function updateVideo()
         {
             type: "js",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/master/Week%2011/handsonscript.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/master/Week%2010/handsonscript.js"
         },
         {
             type: "html",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/master/Week%2011/HandsOnExample.html"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/master/Week%2010/HandsOnExample.html"
 
     }],
     showBlank: false,
@@ -247,12 +247,12 @@ $(document).ready(function(){
 
 function updateAudio()
 {
-    $("#song").attr("src", "https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/blob/master/Week%2011/Schubert.mp3"); 
+    $("#song").attr("src", "https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Schubert.mp3"); 
 }
 
 function updateVideo()
 {
-    $("#film").attr("src", "https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/blob/master/Week%2011/Cat.mp4");
+    $("#film").attr("src", "https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Cat.mp4");
 }
 
 ```
@@ -268,10 +268,10 @@ and the HTML file would look something like this:
     </head>
     <body>
 
-        <audio id="song" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/blob/master/Week%2011/Brahms.mp3" controls="controls">
+        <audio id="song" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Brahms.mp3" controls="controls">
         </audio>
         <br>
-        <video id="film" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/blob/master/Week%2011/BOOM.mp4" type="video/mp4" controls="true">
+        <video id="film" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/BOOM.mp4" type="video/mp4" controls="true">
         </video>
 
         <p></p>
@@ -307,12 +307,12 @@ and the HTML file would look something like this:
         {
             type: "js",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/master/Week%2011/handsonscript.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/master/Week%2010/handsonscript.js"
         },
         {
             type: "html",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2020-Examples/master/Week%2011/HandsOnExample.html"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/master/Week%2010/HandsOnExample.html"
 
     }],
     showBlank: false,

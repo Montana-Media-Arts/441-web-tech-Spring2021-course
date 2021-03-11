@@ -54,12 +54,12 @@ Do you remember how to create a class? Can you create a class called Square with
         {
             type: "js",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/handsonscript.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/handsonscript.js"
         },
         {
             type: "html",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/HandsOnExample.html"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/HandsOnExample.html"
 
     }],
     showBlank: false,
@@ -92,12 +92,12 @@ Can you create two squares and add them to the screen? Make them different color
         {
             type: "js",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/handsonscript.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/handsonscript.js"
         },
         {
             type: "html",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/HandsOnExample.html"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/HandsOnExample.html"
 
     }],
     showBlank: false,
@@ -128,12 +128,12 @@ Now, can you make the one square move with the KeyEvents using WASD?  Yes, yes, 
         {
             type: "js",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/handsonscript.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/handsonscript.js"
         },
         {
             type: "html",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/HandsOnExample.html"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/HandsOnExample.html"
 
     }],
     showBlank: false,
@@ -166,12 +166,12 @@ Now, here comes the new stuff, check for collision.  You can use the code above 
         {
             type: "js",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/handsonscript.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/handsonscript.js"
         },
         {
             type: "html",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/HandsOnExample.html"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021/master/Week%2010/HandsOnExample.html"
 
     }],
     showBlank: false,
