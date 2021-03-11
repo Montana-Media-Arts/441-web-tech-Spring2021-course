@@ -1,14 +1,33 @@
 ---
 title: HTML5 Audio and Video
-module: 11
+module: 10
 jotted: true
 ---
 
 # Audio and Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pu0i31fMOpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+<button class="tablinks" onclick="openTab(event, 'audio')">Audio</button>
+  <button class="tablinks" onclick="openTab(event, 'video')">Video</button>
+  <button class="tablinks" onclick="openTab(event, 'todo')">To Do</button>
+  <button class="tablinks" onclick="openTab(event, 'changesource')">Change Source</button>
+  <button class="tablinks" onclick="openTab(event, 'todo2')">To Do</button>
+  <button class="tablinks" onclick="openTab(event, 'changejquery')">jQuery Changes</button>
+<button class="tablinks" onclick="openTab(event, 'todo3')">To Do</button>
+</div>
+<div id="Overview" class="tabcontent" style="display:block">
+<div class="tabhtml" markdown="1">
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pu0i31fMOpQ" frameborder="0" allowfullscreen></iframe></div>
 
 Two of the most exciting tag elements introduced in HTML5 is the `audio` and `video` tags.  These tags allow us to embed audio and video just as easily as when we integrated images into our sites.
+
+</div>
+</div>
+
+<div id="audio" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 For Audio, the syntax is like this:
 
@@ -27,6 +46,12 @@ For Audio, the syntax is like this:
 
 As you can see, the audio tag sets the src of the song and then plays the melody.  There is an attribute called **controls**, which allows the necessary controls to appear for the music player.
 
+</div>
+</div>
+
+<div id="video" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
 Similarly, the video controls work the same way.  The syntax looks like this:
 
 ```html
@@ -43,6 +68,11 @@ Similarly, the video controls work the same way.  The syntax looks like this:
 </html>
 ```
 
+</div>
+</div>
+
+<div id="todo" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 ### Try it yourself!
 
@@ -84,6 +114,12 @@ Similarly, the video controls work the same way.  The syntax looks like this:
 </script>
 
 Did it work? Yes? Well done!
+
+</div>
+</div>
+
+<div id="changesource" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 ## Change Source with Events
 
@@ -143,6 +179,12 @@ function updateVideo()
 }
 ```
 
+</div>
+</div>
+
+<div id="todo2" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
 ### Try it yourself!
 
 1. Can you change your audio with JavaScript?
@@ -180,6 +222,12 @@ function updateVideo()
 </script>
 
 Did you get it? Yes? Great work! Keep it up!
+
+</div>
+</div>
+
+<div id="changejquery" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 ## Changes with jQuery
 
@@ -236,6 +284,11 @@ and the HTML file would look something like this:
 </html>
 ```
 
+</div>
+</div>
+
+<div id="todo3" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 ### Try it yourself!
 
@@ -275,3 +328,7 @@ and the HTML file would look something like this:
 Did you get it again? Yes? Good job! I knew you could do it!
 
 So, what about the canvas?
+
+</div>
+</div>
+

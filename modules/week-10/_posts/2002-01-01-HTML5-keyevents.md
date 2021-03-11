@@ -1,12 +1,23 @@
 ---
 title: HTML5 Key Events
-module: 11
+module: 10
 jotted: true
 ---
 
 # Key Events
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SkXtDH2aGwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'keyevents')">Key Events</button>
+  <button class="tablinks" onclick="openTab(event, 'todo')">To Do</button>
+  <button class="tablinks" onclick="openTab(event, 'hint')">Hint</button>
+  <button class="tablinks" onclick="openTab(event, 'todo2')">To Do</button>
+  
+</div>
+<div id="Overview" class="tabcontent" style="display:block">
+<div class="tabhtml" markdown="1">
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SkXtDH2aGwI" frameborder="0" allowfullscreen></iframe></div>
 
 In the last section, we looked at moving items across the screen. If you can do that, then you can move something with a key event too. Let's use our code from before to draw a blue square:
 
@@ -45,6 +56,12 @@ In the last section, we looked at moving items across the screen. If you can do 
 </html>
 ```
 
+</div>
+</div>
+
+<div id="keyevents" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
 ## KeyEvents
 
 Should we use WASD or arrows?  Or both?  Let's start with WASD.
@@ -68,6 +85,12 @@ function getKey(event)
 ```
 
 Remember `this`?  It's back!  The `this` keyword allows us to check for keyEvents on anything that might be on the page.  Then, we can get the keystroke pressed and do something.
+
+</div>
+</div>
+
+<div id="todo" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 ## You try it out!
 
@@ -101,7 +124,13 @@ How can you use the code above to move the square up?  Don't worry about the oth
 
 Did you get it to move up? Yes?  Good job!
 
-#### Need a hint - read below
+</div>
+</div>
+
+<div id="hint" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
+#### Need a hint
 
 So, let me ask you this. If I wanted to go up, which letter would I press?  `w` right?  Which value would I need to change? **x** or **y**?  If you answered **y**, you are correct!  What do I need to do to **y** to make the shape move up?  Do I need to **add** to it or **subtract** from it?  Keep in mind that 0,0 is in the upper left-hand corner.  If you answered **subtract** from **y**, you were correct!
 
@@ -125,6 +154,12 @@ function moveUp()
 }
 ```
 Did you notice I put the drawSquare function in after the if statement?  Why did I need to do that?
+
+</div>
+</div>
+
+<div id="todo2" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 ## You try it out!
 
@@ -159,3 +194,6 @@ Can you put add the other letters?
 Did it work? Yes? Great!
 
 So, what about collisions?  Go to the next section, and we will see about that!
+</div>
+</div>
+

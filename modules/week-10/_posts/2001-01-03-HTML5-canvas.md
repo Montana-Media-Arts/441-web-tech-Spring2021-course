@@ -1,12 +1,23 @@
 ---
 title: HTML5 Canvas
-module: 11
+module: 10
 jotted: true
 ---
 
 # HTML5 Canvas
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZwYFdU3lHSo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+<button class="tablinks" onclick="openTab(event, 'basicsetup')">Basic Setup</button>
+  <button class="tablinks" onclick="openTab(event, 'todo')">To Do</button>
+  <button class="tablinks" onclick="openTab(event, 'draw')">Draw</button>
+  <button class="tablinks" onclick="openTab(event, 'todo2')">To Do</button>
+  
+</div>
+<div id="Overview" class="tabcontent" style="display:block">
+<div class="tabhtml" markdown="1">
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZwYFdU3lHSo" frameborder="0" allowfullscreen></iframe></div>
 
 The HTML5 Canvas is a revolutionary tag element that provides many benefits, such as:
 
@@ -19,6 +30,12 @@ The HTML5 Canvas is a revolutionary tag element that provides many benefits, suc
 
 * HTML Canvas Used for Games
   * Canvas' methods for animations offer a lot of possibilities for HTML gaming applications.
+
+</div>
+</div>
+
+<div id="basicsetup" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 Let's take a look at the most basic set up of the canvas.  If you want the canvas to appear, you need the canvas tag.  It looks like this:
 
@@ -38,6 +55,12 @@ Let's take a look at the most basic set up of the canvas.  If you want the canva
 #### Screenshot
 
 ![Example of Canvas](../imgs/canvas.png "Example of Canvas")
+
+</div>
+</div>
+
+<div id="todo" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 ### Try it yourself!
 
@@ -71,6 +94,12 @@ How can you make a border around the canvas?  Use the code above to make a borde
 
 Did it work? Yes? Good job!
 
+</div>
+</div>
+
+<div id="draw" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
 ## How do we draw?
 
 For us to interact with the canvas, we have to get the context of the canvas in 2d (3d requires a library and WebGL to help us).
@@ -86,6 +115,12 @@ Now, we can draw something by adding these two lines.  You should see a single b
     ctx.fillStyle = "#0000FF";
     ctx.fillRect(50, 50, 10, 10);
 ```
+
+</div>
+</div>
+
+<div id="todo2" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 ### You give it a try!
 
@@ -118,3 +153,6 @@ Now, we can draw something by adding these two lines.  You should see a single b
 Did you get a little blue square? Yes? Great!
 
 So, what else can we do?
+
+</div>
+</div>

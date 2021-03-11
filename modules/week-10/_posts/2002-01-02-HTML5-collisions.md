@@ -1,12 +1,23 @@
 ---
 title: HTML5 Collisions
-module: 11
+module: 10
 jotted: true
 ---
 
 # HTML5 Collisions
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oeTBJ3_05ms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'createclass')">Create a Class</button>
+  <button class="tablinks" onclick="openTab(event, 'twoshapes')">Two Shapes</button>
+  <button class="tablinks" onclick="openTab(event, 'movements')">Movement</button>
+  <button class="tablinks" onclick="openTab(event, 'collision')">Collision</button>
+  
+</div>
+<div id="Overview" class="tabcontent" style="display:block">
+<div class="tabhtml" markdown="1">
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oeTBJ3_05ms" frameborder="0" allowfullscreen></iframe></div>
 
 With any game, you need to be able to handle collisions. We are going to use a simple box collider.  It checks the corners of the boxes to see if they are overlapping.  If they are, then it returns true, else it returns false.  Keep in mind, a collision can be more precise, but it takes more processing because of all the algorithm checks all the points of the shape.  Also, every move checks collision.
 
@@ -24,6 +35,12 @@ function hasCollided(object1, object2) {
 ```
 
 Now, wait a minute. You might have thought that objects were going away. But what if I told you that you could create an object out of each of your squares (assuming you have at least two).  Then, you can send your objects into this function, and it will check to see if you have collided or not.
+
+</div>
+</div>
+
+<div id="createclass" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 ## Try it out!
 
@@ -57,6 +74,11 @@ Do you remember how to create a class? Can you create a class called Square with
 
 Check to see if everything is in your objects by writing to the console.  Did it work? Yes? Great job!
 
+</div>
+</div>
+
+<div id="twoshapes" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 ## Try it yourself!
 
@@ -88,6 +110,12 @@ Can you create two squares and add them to the screen? Make them different color
 });
 </script>
 
+</div>
+</div>
+
+<div id="movement" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
 ## Try it yourself!
 
 Now, can you make the one square move with the KeyEvents using WASD?  Yes, yes, you can!
@@ -117,6 +145,12 @@ Now, can you make the one square move with the KeyEvents using WASD?  Yes, yes, 
     ]
 });
 </script>
+
+</div>
+</div>
+
+<div id="collision" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
 Look how far you have come!  I am so proud of you!
 
@@ -152,4 +186,9 @@ Now, here comes the new stuff, check for collision.  You can use the code above 
 
 
 You did it!  I am proud of you! I knew you could do it!  Is there more?  Of course, there is, but we are going to wait until next week to do more.  Good job this week!
+
+</div>
+</div>
+
+
     
