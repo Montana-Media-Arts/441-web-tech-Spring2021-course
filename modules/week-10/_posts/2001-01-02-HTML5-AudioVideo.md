@@ -37,7 +37,7 @@ For Audio, the syntax is like this:
         <title>Audio/Video</title>
     </head>
     <body>
-        <audio id="song" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Brahms.mp3" controls="controls">
+        <audio id="song" src="https://montana-media-arts.github.io/441-WebTech-Spring2021-Examples/Week%2010/Brahms.mp3" controls="controls">
         </audio>
         <br>
     </body>
@@ -61,9 +61,8 @@ Similarly, the video controls work the same way.  The syntax looks like this:
     </head>
     <body>
 
-        <video id="film" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/BOOM.mp4" type="video/mp4" controls="true">
+        <video id="film" src="https://montana-media-arts.github.io/441-WebTech-Spring2021-Examples/Week%2010/BOOM.mp4" type="video/mp4" controls="true">
         </video>
-
     </body>
 </html>
 ```
@@ -79,39 +78,27 @@ Similarly, the video controls work the same way.  The syntax looks like this:
 1. Can you add your audio? 
 2. Can you add your video? Find a great meme and make it appear!
 
-**Hint** Remember you need a fully qualified URL here for an example: **https://montana-media-arts.github.io/web-tech-Spring2019/data/Brahms.mp3**
+**Hint** Remember you need a fully qualified URL here for an example: **https://montana-media-arts.github.io/441-WebTech-Spring2021-Examples/Week%2010/Brahms.mp3**
 
 #### Screenshot
 
 ![Example of Audio](../imgs/audio.png "Example of Audio")
 
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="retrog4m3r" data-slug-hash="BaQvbBx" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MART 441 Audio Example">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/BaQvbBx">
+  MART 441 Audio Example</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 ![Example of Video](../imgs/video.png "Example of Video")
 
-<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
-
-<script>
-    new Jotted(document.querySelector("#jotted-demo-1"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/master/Week%2010/handsonscript.js"
-        },
-        {
-            type: "html",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/master/Week%2010/HandsOnExample.html"
-
-    }],
-    showBlank: false,
-    showResult: true,
-    runScripts: true,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 100, "Lines": 100 } },
-        // { name: 'console', options: { autoClear: true } },
-    ]
-});
-</script>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="retrog4m3r" data-slug-hash="wvoROBx" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MART 441 Video Example">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/wvoROBx">
+  MART 441 Video Example</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Did it work? Yes? Well done!
 
@@ -127,14 +114,14 @@ For audio, it looks like this:
 
 ```javascript
     var audio = document.getElementById("song");
-    audio.src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Schubert.mp3";
+    audio.src="https://montana-media-arts.github.io/441-WebTech-Spring2021-Examples/Week%2010/Brahms.mp3";
 ```
 
 and for the video, it would like like this:
 
 ```javascript
     var film = document.getElementById("film");
-    film.src="hhttps://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Cat.mp4";
+    film.src="https://montana-media-arts.github.io/441-WebTech-Spring2021-Examples/Week%2010/Cat.mp4";
 ```
 
 So, if we put it all together now.  The HTML file would look like this:
@@ -147,10 +134,10 @@ So, if we put it all together now.  The HTML file would look like this:
     </head>
     <body>
 
-        <audio id="song" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Brahms.mp3" controls="controls">
+        <audio id="song" src="https://montana-media-arts.github.io/441-WebTech-Spring2021-Examples/Week%2010/Brahms.mp3" controls="controls">
         </audio>
         <br>
-        <video id="film" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/BOOM.mp4" type="video/mp4" controls="true">
+        <video id="film" src="https://montana-media-arts.github.io/441-WebTech-Spring2021-Examples/Week%2010/BOOM.mp4" type="video/mp4" controls="true">
         </video>
 
         <p></p>
@@ -169,13 +156,13 @@ While the JavaScript file would look like this:
 function updateAudio()
 {
     var audio = document.getElementById("song");
-    audio.src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Schubert.mp3";
+    audio.src="https://montana-media-arts.github.io/441-WebTech-Spring2021-Examples/Week%2010/Schubert.mp3";
 }
 
 function updateVideo()
 {
     var film = document.getElementById("film");
-    film.src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Cat.mp44";
+    film.src="https://montana-media-arts.github.io/441-WebTech-Spring2021-Examples/Week%2010/Cat.mp4";
 }
 ```
 
@@ -195,31 +182,12 @@ function updateVideo()
 ![Example of Change](../imgs/change.png "Example of Change")
 
 
-<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
-
-<script>
-    new Jotted(document.querySelector("#jotted-demo-2"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/master/Week%2010/handsonscript.js"
-        },
-        {
-            type: "html",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/master/Week%2010/HandsOnExample.html"
-
-    }],
-    showBlank: false,
-    showResult: true,
-    runScripts: true,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 100, "Lines": 100 } },
-        // { name: 'console', options: { autoClear: true } },
-    ]
-});
-</script>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="retrog4m3r" data-slug-hash="gOLZEav" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MART 441 Change Audio/Video">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/gOLZEav">
+  MART 441 Change Audio/Video</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Did you get it? Yes? Great work! Keep it up!
 
@@ -247,12 +215,12 @@ $(document).ready(function(){
 
 function updateAudio()
 {
-    $("#song").attr("src", "https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Schubert.mp3"); 
+    $("#song").attr("src", "https://montana-media-arts.github.io/441-WebTech-Spring2021-Examples/Week%2010/Schubert.mp3"); 
 }
 
 function updateVideo()
 {
-    $("#film").attr("src", "https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Cat.mp4");
+    $("#film").attr("src", "https://montana-media-arts.github.io/441-WebTech-Spring2021-Examples/Week%2010/Cat.mp4");
 }
 
 ```
@@ -268,10 +236,10 @@ and the HTML file would look something like this:
     </head>
     <body>
 
-        <audio id="song" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/Brahms.mp3" controls="controls">
+        <audio id="song" src="https://montana-media-arts.github.io/441-WebTech-Spring2021-Examples/Week%2010/Brahms.mp3" controls="controls">
         </audio>
         <br>
-        <video id="film" src="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/blob/master/Week%2010/BOOM.mp4" type="video/mp4" controls="true">
+        <video id="film" src="https://montana-media-arts.github.io/441-WebTech-Spring2021-Examples/Week%2010/BOOM.mp4" type="video/mp4" controls="true">
         </video>
 
         <p></p>
@@ -299,31 +267,12 @@ and the HTML file would look something like this:
 
 ![Example of Change](../imgs/change.png "Example of Change")
 
-<div id="jotted-demo-3" class="jotted-theme-stacked"></div>
-
-<script>
-    new Jotted(document.querySelector("#jotted-demo-3"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/master/Week%2010/handsonscript.js"
-        },
-        {
-            type: "html",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples/master/Week%2010/HandsOnExample.html"
-
-    }],
-    showBlank: false,
-    showResult: true,
-    runScripts: true,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 100, "Lines": 100 } },
-        // { name: 'console', options: { autoClear: true } },
-    ]
-});
-</script>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="retrog4m3r" data-slug-hash="JjbwzXR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MART 441 jQuery Change Audio/Video">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/JjbwzXR">
+  MART 441 jQuery Change Audio/Video</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Did you get it again? Yes? Good job! I knew you could do it!
 
