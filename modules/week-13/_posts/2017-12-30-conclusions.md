@@ -1,8 +1,8 @@
 ---
-title: Week 13 Conclusions
-module: 13
+title: Week 14 Conclusions
+module: 14
 ---
 
 # Conclusions
 
-This week looked at the first of two different libraries.  This one is a popular web game engine, and next week we will look at another library.
+So this is the end of the formal part of this class. Good luck working on your final project, and please let me know if there is anything I can do!
