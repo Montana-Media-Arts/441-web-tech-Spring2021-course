@@ -1,6 +1,6 @@
 ---
 title: JSON, Classes, and Arrays
-module: 12
+module: 11
 jotted: true
 ---
 

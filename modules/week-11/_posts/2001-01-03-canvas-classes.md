@@ -1,6 +1,6 @@
 ---
 title: Canvas Classes
-module: 12
+module: 11
 jotted: true
 ---
 
