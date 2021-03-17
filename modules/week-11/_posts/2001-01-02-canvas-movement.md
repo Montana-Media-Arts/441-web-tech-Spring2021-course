@@ -6,7 +6,7 @@ jotted: true
 
 # Canvas Movement
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/58CftynH-2Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/58CftynH-2Y" frameborder="0" allowfullscreen></iframe></div>
 
 What about moving our element on the canvas? Do you remember how? Let's start with this.
 
@@ -14,14 +14,14 @@ What about moving our element on the canvas? Do you remember how? Let's start wi
 <html>
     <head>
         <title>Canvas</title>
-         <style>
-        #myCanvas{
-            border:black;
-            border-style: solid;
-            border-width: 2px;
-            
-        }
-    </style>
+        <style>
+            #myCanvas{
+                border:black;
+                border-style: solid;
+                border-width: 2px;
+
+            }
+        </style>
     </head>
    
     <body>
@@ -36,8 +36,7 @@ What about moving our element on the canvas? Do you remember how? Let's start wi
             setInterval(update, 1000);
 
             function update()
-            {
-                
+            {     
                 drawSquare();
             }
 
@@ -51,30 +50,27 @@ What about moving our element on the canvas? Do you remember how? Let's start wi
 </html>
 ```
 
+Recall, the implementation of Key Events use the following jQuery events.
+
+```javascript
+$(document).ready(function(){
+    $(this).keypress(function(event){
+        getKey(event);
+    });
+});
+
+function getKey(event)
+{
+    var char = event.which || event.keyCode;
+    var actualLetter = String.fromCharCode(char);
+}
+```
+
 Now, you need to add the key events to make sure you can move the square around.  Give it a try!
 
-<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
-
-<script>
-    new Jotted(document.querySelector("#jotted-demo-2"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/handsonscript.js"
-        },
-        {
-            type: "html",
-            hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/HandsOnExample.html"
-
-    }],
-    showBlank: false,
-    showResult: true,
-    runScripts: true,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 100, "Lines": 100 } },
-        // { name: 'console', options: { autoClear: true } },
-    ]
-});
-</script>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="retrog4m3r" data-slug-hash="xxRNxRN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MART 441 Week 11 Canvas Square">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/xxRNxRN">
+  MART 441 Week 11 Canvas Square</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
