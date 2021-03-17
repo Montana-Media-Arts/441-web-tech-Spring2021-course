@@ -19,7 +19,6 @@ What about moving our element on the canvas? Do you remember how? Let's start wi
                 border:black;
                 border-style: solid;
                 border-width: 2px;
-
             }
         </style>
     </head>
