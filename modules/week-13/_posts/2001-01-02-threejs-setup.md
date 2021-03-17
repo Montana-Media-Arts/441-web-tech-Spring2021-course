@@ -1,12 +1,12 @@
 ---
 title: Set up files
-module: 14
+module: 13
 jotted: true
 ---
 
 # Set up
 
-<a href="https://umontana.zoom.us/rec/play/tcEpdeiprWk3TIfDuQSDV_MrW42_Lf2s0SJM__cLyku0AiYFOgajYOEQZbEoWa68aZw9_HilB7JatnZJ?continueMode=true&_x_zm_rtaid=Jy8A7lfcT7a7lcNIPPwruA.1586580115012.04bd670198c0317137d387c683f84aae&_x_zm_rhtaid=860">Video Link</a>
+
 
 The first thing we need to do is to make sure we have the correct setup.  Here is an example of a potential HTML file.
 

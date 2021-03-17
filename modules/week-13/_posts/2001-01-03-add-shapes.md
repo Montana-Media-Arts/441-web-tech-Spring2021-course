@@ -1,12 +1,12 @@
 ---
 title: Add Shapes
-module: 14
+module: 13
 jotted: true
 ---
 
 # Add a Cube
 
-<a href="https://umontana.zoom.us/rec/play/7MUtJemh-mk3HYGd5gSDUf97W9W9LKisgSQd_qFcxEuxVCYDNFbwN7caNusamsb1n94vv8MLSO94Bf_a?continueMode=true&_x_zm_rtaid=Jy8A7lfcT7a7lcNIPPwruA.1586580115012.04bd670198c0317137d387c683f84aae&_x_zm_rhtaid=860">Video Link</a>
+
 
 Although the black screen is appealing, let's add a shape to our scene.  The following code adds a cube.  Put it at the bottom of your script.
 

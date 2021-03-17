@@ -1,13 +1,12 @@
 ---
 title: Additional Tips and Tricks
-module: 14
+module: 13
 jotted: true
 ---
 
 # Additional Tips and Tricks
 
-<a href="https://umontana.zoom.us/rec/share/u892DpHczjNOWIXf9h7_cbAdPaTMeaa81iYe8vIKzhol3XUX925b0OBDjY-RHsBh
-">Video Link</a>
+
 
 If you are interested in pursuing threejs further, here is a resource providing some tips and tricks on making your threejs projects even more interesting.
 

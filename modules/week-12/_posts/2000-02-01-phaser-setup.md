@@ -1,6 +1,6 @@
 ---
 title: Phaser.io Setup
-module: 13
+module: 12
 jotted: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Phaser.io Part 4
-module: 13
+module: 12
 jotted: true
 ---
 
