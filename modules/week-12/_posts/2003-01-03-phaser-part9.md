@@ -6,7 +6,7 @@ jotted: true
 
 # Phaser.io Part 9
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CnNKeGGnTpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CnNKeGGnTpA" frameborder="0" allowfullscreen></iframe></div>
 
 It's great to collect the stars. However, it would be better to show a score as well.  The code below shows how it looks.
 

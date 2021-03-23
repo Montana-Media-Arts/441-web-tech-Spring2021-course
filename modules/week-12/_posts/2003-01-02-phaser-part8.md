@@ -6,7 +6,8 @@ jotted: true
 
 # Phaser.io Part 8
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/26rY57BJpvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/26rY57BJpvE" frameborder="0" allowfullscreen></iframe></div>
+
 
 To make this more interesting, let's add some stars to collect. They will fall from the sky, and the player will receive them.
 

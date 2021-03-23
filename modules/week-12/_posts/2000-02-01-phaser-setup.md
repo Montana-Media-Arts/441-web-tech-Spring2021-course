@@ -24,15 +24,15 @@ The easiest thing to do is install live server in your editor.  Whenever you try
 
 ## Download Phaser.io
 
-[Download the library](http://phaser.io/tutorials/getting-started-phaser3/part4)
+<a href="http://phaser.io/tutorials/getting-started-phaser3/part4" target="_new">Download the library</a>
 
 ## Assets
 
 Don't forget to get the assets from GitHub.
 
-[Get the Assets](https://github.com/photonstorm/phaser3-examples)
+<a href="https://github.com/photonstorm/phaser3-examples" target="_new">Get the Assets</a>
 
-[Assets for the walkthrough](https://github.com/Montana-Media-Arts/441-WebTech-Spring2019/tree/master/Week%2014%20Examples)
+<a href="https://github.com/Montana-Media-Arts/441-WebTech-Spring2021-Examples" target="_new">Assets for the walkthrough</a>
 Put these directly in the assets folder.
 
 ## Create a "Hello World!" in Phaser.io
