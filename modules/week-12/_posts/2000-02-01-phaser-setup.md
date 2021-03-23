@@ -6,19 +6,21 @@ jotted: true
 
 # Phaser.io Install
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HHsKBnSrTKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HHsKBnSrTKE" frameborder="0" allowfullscreen></iframe></div>
+
 
 First, go to Phaser.io and download the library.  From there, know that you need a live server to make this work. You can get this as an add-on in Atom and Visual Studio Code.  I won't run correctly otherwise.
 
 ## Live Server Instructions
 
-[Live Server Instructions](http://phaser.io/tutorials/getting-started-phaser3/part2)
+The easiest thing to do is install live server in your editor.  Whenever you try and open your application make sure you choose "Open with Live Server".
 
-![Live Server](../imgs/LiveServer.png "Live Server")
+![Live Server](../imgs/LiveServerVSCode.png "Live Server VS Code")
 
-## Editor Choices
+![Live Server](../imgs/LiveServerAtom1.png "Live Server Atom Search")
 
-[Editors](http://phaser.io/tutorials/getting-started-phaser3/part3)
+![Live Server](../imgs/LiveServerAtom2.png "Live Server Atom Install")
+
 
 ## Download Phaser.io
 
@@ -35,7 +37,7 @@ Put these directly in the assets folder.
 
 ## Create a "Hello World!" in Phaser.io
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xEvFkYvuZmI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xEvFkYvuZmI" frameborder="0" allowfullscreen></iframe></div>
 
 ```html
 <!DOCTYPE html>
