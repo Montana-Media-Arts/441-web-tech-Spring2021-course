@@ -6,7 +6,15 @@ jotted: true
 
 # Set up
 
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
 
+  <button class="tablinks" onclick="openTab(event, 'Sections')">Sections</button>
+  <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
+  
+</div>
+<div id="Overview" class="tabcontent" style="display:block">
+<div class="tabhtml" markdown="1">
 
 The first thing we need to do is to make sure we have the correct setup.  Here is an example of a potential HTML file.
 
@@ -32,6 +40,11 @@ The first thing we need to do is to make sure we have the correct setup.  Here i
 
 Notice, the three.js file is in the js folder.  Just make sure you reference your folder.
 
+</div>
+</div>
+<div id="Sections" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
 There are three main parts to a threejs file. 
 
 * scene
@@ -54,3 +67,18 @@ The first line creates the scene by accessing the threejs library and then sets 
 If you run this, you should see a black screen. Not too exciting, is it?  
 
 So, where do we go from here?
+</div>
+</div>
+<div id="ToDo" class="tabcontent">
+<div class="tabhtml" markdown="1">
+So, what does this look like when it's all together.  Check out this CodePen and make changes if you want.
+
+<p class="codepen" data-height="158" data-theme-id="light" data-default-tab="js,result" data-user="retrog4m3r" data-slug-hash="vYggmZm" style="height: 158px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Initial threejs">
+  <span>See the Pen <a href="https://codepen.io/retrog4m3r/pen/vYggmZm">
+  Initial threejs</a> by Michael Cassens (<a href="https://codepen.io/retrog4m3r">@retrog4m3r</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+</div>
+</div>
