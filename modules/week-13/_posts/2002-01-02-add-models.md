@@ -142,7 +142,8 @@ You need the threejs library of course, but you also need the OBJLoader which is
 ```
 
 Did you get to see your model?  Great!
-
+</div>
+</div>
 <div id="ToDo" class="tabcontent">
 <div class="tabhtml" markdown="1">
 
