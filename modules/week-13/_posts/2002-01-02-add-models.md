@@ -20,7 +20,7 @@ threejs also allows you to add models that were created in other applications an
 ```html
     <script src="js/three.js"></script>
     <script src="js/OBJLoader.js"></script>
-    <script src="TrackballControls.js"></script>
+    <script src="js/TrackballControls.js"></script>
 ```
 
 </div>
@@ -31,7 +31,7 @@ threejs also allows you to add models that were created in other applications an
 You need the threejs library of course, but you also need the OBJLoader which is in the examples -> libraries folder as well.
 
 ```js
-        /**
+  /**
   * Generate a scene object with a background color
   **/
 
