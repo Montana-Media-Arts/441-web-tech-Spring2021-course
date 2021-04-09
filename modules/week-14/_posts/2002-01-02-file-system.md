@@ -8,17 +8,25 @@ jotted: true
 
 Node implements File I/O using simple wrappers around standard POSIX functions. The Node File System (fs) module can be imported using the following syntax −
 
+```js
 var fs = require("fs")
-Synchronous vs Asynchronous
+```
+
+### Synchronous vs Asynchronous
+
 Every method in the fs module has synchronous as well as asynchronous forms. Asynchronous methods take the last parameter as the completion function callback and the first parameter of the callback function as error. It is better to use an asynchronous method instead of a synchronous method, as the former never blocks a program during its execution, whereas the second one does.
 
-Example
-Create a text file named input.txt with the following content −
+**Example**
 
-Tutorials Point is giving self learning content
-to teach the world in simple and easy way!!!!!
-Let us create a js file named main.js with the following code −
+Create a text file named `input.txt` with the following content −
 
+```html
+MART 441 has introduced a bunch of crazy stuff this semester.
+```
+
+Let us create a js file named `main.js` with the following code −
+
+```js
 var fs = require("fs");
 
 // Asynchronous read
@@ -34,102 +42,106 @@ var data = fs.readFileSync('input.txt');
 console.log("Synchronous read: " + data.toString());
 
 console.log("Program Ended");
-Now run the main.js to see the result −
+```
 
+Now run the `main.js` to see the result −
+
+```js
 $ node main.js
+```
+
 Verify the Output.
 
-Synchronous read: Tutorials Point is giving self learning content
-to teach the world in simple and easy way!!!!!
-
+```html
+Synchronous read: MART 441 has introduced a bunch of crazy stuff this semester.
 Program Ended
-Asynchronous read: Tutorials Point is giving self learning content
-to teach the world in simple and easy way!!!!!
-The following sections in this chapter provide a set of good examples on major File I/O methods.
 
-Open a File
-Syntax
+```
+
+**Asynchronous read:** 
+
+The following sections in this section provide a set of good examples on major File I/O methods.
+
+**Open a File**
+
+`Syntax`
+
 Following is the syntax of the method to open a file in asynchronous mode −
 
+```js
 fs.open(path, flags[, mode], callback)
-Parameters
+```
+
+**Parameters**
+
 Here is the description of the parameters used −
 
-path − This is the string having file name including path.
+**path** − This is the string having file name including path.
 
-flags − Flags indicate the behavior of the file to be opened. All possible values have been mentioned below.
+**flags** − Flags indicate the behavior of the file to be opened. All possible values have been mentioned below.
 
-mode − It sets the file mode (permission and sticky bits), but only if the file was created. It defaults to 0666, readable and writeable.
+**mode** − It sets the file mode (permission and sticky bits), but only if the file was created. It defaults to 0666, readable and writeable.
 
-callback − This is the callback function which gets two arguments (err, fd).
+**callback** − This is the callback function which gets two arguments (err, fd).
 
-Flags
+**Flags**
+
 Flags for read/write operations are −
 
-Sr.No.	Flag & Description
-1	
-r
+**Sr.No.	Flag & Description**
+1	      r
 
-Open file for reading. An exception occurs if the file does not exist.
+**Open file for reading.** An exception occurs if the file does not exist.
 
-2	
-r+
+2	      r+
 
-Open file for reading and writing. An exception occurs if the file does not exist.
+**Open file for reading and writing.** An exception occurs if the file does not exist.
 
-3	
-rs
+3	   rs
 
 Open file for reading in synchronous mode.
 
-4	
-rs+
+4     rs+
 
 Open file for reading and writing, asking the OS to open it synchronously. See notes for 'rs' about using this with caution.
 
-5	
-w
+5     w
 
 Open file for writing. The file is created (if it does not exist) or truncated (if it exists).
 
-6	
-wx
+6     wx
 
 Like 'w' but fails if the path exists.
 
-7	
-w+
+7     w+
 
 Open file for reading and writing. The file is created (if it does not exist) or truncated (if it exists).
 
-8	
-wx+
+8     wx+
 
 Like 'w+' but fails if path exists.
 
-9	
-a
+9     a
 
 Open file for appending. The file is created if it does not exist.
 
-10	
-ax
+10    ax
 
 Like 'a' but fails if the path exists.
 
-11	
-a+
+11    a+
 
 Open file for reading and appending. The file is created if it does not exist.
 
-12	
-ax+
+12    ax+
 
 Like 'a+' but fails if the the path exists.
 
-Example
+**Example**
+
 Let us create a js file named main.js having the following code to open a file input.txt for reading and writing.
 
+```js
 var fs = require("fs");
 
 // Asynchronous - Opening File
@@ -140,19 +152,29 @@ fs.open('input.txt', 'r+', function(err, fd) {
    }
    console.log("File opened successfully!");     
 });
+```
 Now run the main.js to see the result −
 
 $ node main.js
-Verify the Output.
 
+Verify the Output.
+```html
 Going to open file!
 File opened successfully!
-Get File Information
+```
+
+**Get File Information**
+
 Syntax
+
 Following is the syntax of the method to get the information about a file −
 
+```js
 fs.stat(path, callback)
+```
+
 Parameters
+
 Here is the description of the parameters used −
 
 path − This is the string having file name including path.
@@ -198,8 +220,10 @@ stats.isSocket()
 Returns true if file type of asocket.
 
 Example
+
 Let us create a js file named main.js with the following code −
 
+```js
 var fs = require("fs");
 
 console.log("Going to get file info!");
@@ -214,11 +238,17 @@ fs.stat('input.txt', function (err, stats) {
    console.log("isFile ? " + stats.isFile());
    console.log("isDirectory ? " + stats.isDirectory());    
 });
+```
+
 Now run the main.js to see the result −
 
+```js
 $ node main.js
-Verify the Output.
+```
 
+Verify the output..
+
+```js
 Going to get file info!
 { 
    dev: 1792,
@@ -235,18 +265,27 @@ Going to get file info!
    mtime: Sun Mar 22 2015 13:40:57 GMT-0500 (CDT),
    ctime: Sun Mar 22 2015 13:40:57 GMT-0500 (CDT) 
 }
+```
 Got file info successfully!
-isFile ? true
-isDirectory ? false
-Writing a File
-Syntax
+
+* isFile ? true
+* isDirectory ? false
+* Writing a File
+
+**Syntax**
+
 Following is the syntax of one of the methods to write into a file −
 
+```js
 fs.writeFile(filename, data[, options], callback)
+```
+
 This method will over-write the file if the file already exists. If you want to write into an existing file then you should use another method available.
 
-Parameters
+**Parameters**
+
 Here is the description of the parameters used −
+You might try
 
 path − This is the string having the file name including path.
 
