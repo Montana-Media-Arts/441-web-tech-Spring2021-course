@@ -36,9 +36,7 @@ Following are some of the important features that make Node.js the first choice 
 
 This list includes eBay, General Electric, GoDaddy, Microsoft, PayPal, Uber, Wikipins, Yahoo!, and Yammer to name a few.
 
-#### Projects, Applications, and Companies Using Node
-
-**Concepts*
+#### Concepts
 
 The following diagram depicts some important parts of Node.js.
 

@@ -34,29 +34,7 @@ The following section guides you on how to install Node.js binary distribution o
 
 **Download Node.js archive**
 
-Download latest version of Node.js installable archive file from Node.js <a href="https://nodejs.org/download/" target="_new">Downloads</a>. 
-
-**Installation on UNIX/Linux/Mac OS X, and SunOS**
-
-Based on your OS architecture, download and extract the archive node-v6.3.1-osname.tar.gz into /tmp, and then finally move extracted files into /usr/local/nodejs directory. For example:
-
-- $ cd /tmp
-- $ wget http://nodejs.org/dist/v6.3.1/node-v6.3.1-linux-x64.tar.gz
-- $ tar xvfz node-v6.3.1-linux-x64.tar.gz
-- $ mkdir -p /usr/local/nodejs
-- $ mv node-v6.3.1-linux-x64/* /usr/local/nodejs
-- Add /usr/local/nodejs/bin to the PATH environment variable.
-
-**OS Output**
-
-- Linux	export PATH=$PATH:/usr/local/nodejs/bin
-- Mac	export PATH=$PATH:/usr/local/nodejs/bin
-- FreeBSD	export PATH=$PATH:/usr/local/nodejs/bin
-
-**Installation on Windows**
-
-Use the MSI file and follow the prompts to install the Node.js. By default, 
-the installer uses the Node.js distribution in C:\Program Files\nodejs. The installer should set the C:\Program Files\nodejs\bin directory in window's PATH environment variable. Restart any open command prompts for the change to take effect.
+Download latest version of Node.js installable archive file from Node.js <a href="https://nodejs.org/en/download/current/" target="_new">Downloads</a>. 
 
 **Verify installation: Executing a File**
 
@@ -67,10 +45,10 @@ Create a js file named `main.js` on your machine (Windows or Linux) having the f
 console.log("Hello, World!")
 ```
 
-Now execute `main.js` file using Node.js interpreter to see the result −
+Now execute `main.js` file using Node.js interpreter to see the result, make sure you navigate to the directory where you saved your file. Then, type the following in your console.  
 
 ```js
-$ node main.js
+node main.js
 ```
 If everything is fine with your installation, this should produce the following result −
 

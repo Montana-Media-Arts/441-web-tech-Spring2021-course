@@ -69,7 +69,7 @@ console.log('Server running at http://127.0.0.1:8081/');
 Now execute the main.js to start the server as follows −
 
 ```js
-$ node main.js
+node main.js
 ```
 
 Verify the Output. Server has started.
