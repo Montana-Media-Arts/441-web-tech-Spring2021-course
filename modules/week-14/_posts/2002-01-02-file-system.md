@@ -554,8 +554,10 @@ File truncated successfully.
 Going to read the same file
 MART 441
 File closed successfully.
-Delete a File
+
 ```
+
+**Delete a File**
 
 **Syntax**
 
@@ -647,8 +649,10 @@ Verify the Output.
 ```html
 Going to create directory /tmp/test
 Directory created successfully!
-Read a Directory
+
 ```
+
+**Read a Directory**
 
 **Syntax**
 
@@ -700,8 +704,10 @@ employee.ser
 hsperfdata_apache
 test
 test.txt
-Remove a Directory
+
 ```
+
+**Remove a Directory**
 
 **Syntax**
 

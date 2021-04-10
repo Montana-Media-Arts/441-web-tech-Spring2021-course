@@ -78,7 +78,7 @@ console.log('Server running at http://127.0.0.1:8081/');
 
 Next let's create the following html file named `index.html` in the same directory where you created `server.js`.
 
-**File:** index.htm
+**File:** index.html
 
 ```html
 
@@ -115,7 +115,7 @@ Verify the Output at server end.
 
 ```html
 Server running at http://127.0.0.1:8081/
-Request for /index.htm received.
+Request for /index.html received.
 ```
 
 **Creating Web client using Node**
