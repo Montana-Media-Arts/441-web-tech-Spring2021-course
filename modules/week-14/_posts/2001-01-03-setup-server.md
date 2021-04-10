@@ -76,9 +76,12 @@ Verify the Output. Server has started.
 
 ```js
 Server running at http://127.0.0.1:8081/
-Make a Request to the Node.js Server
-Open http://127.0.0.1:8081/ in any browser and observe the following result.
 ```
+
+**Make a Request to the Node.js Server**
+
+Open `http://127.0.0.1:8081/` in any browser and observe the following result.
+
 
 <img src="../imgs/nodejs_sample.jpg">
 

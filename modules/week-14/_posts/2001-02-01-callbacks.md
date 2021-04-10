@@ -33,7 +33,7 @@ console.log("Program Ended");
 Now run the `main.js` to see the result −
 
 ```js
-$ node main.js
+node main.js
 ```
 Verify the Output.
 
