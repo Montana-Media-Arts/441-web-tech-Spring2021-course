@@ -327,7 +327,7 @@ Verify the Output.
 Going to write into existing file
 Data written successfully!
 Let's read newly written data
-Asynchronous read: Simply Easy Learning!
+Asynchronous read: MART 441 FTW
 Reading a File
 ```
 
@@ -362,7 +362,7 @@ Let us create a js file named `main.js` with the following code −
 
 ```js
 var fs = require("fs");
-var buf = new Buffer(1024);
+var buf = new Buffer.alloc(1024);
 
 console.log("Going to open an existing file");
 fs.open('input.txt', 'r+', function(err, fd) {
