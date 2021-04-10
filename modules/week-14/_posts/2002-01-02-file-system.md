@@ -399,9 +399,13 @@ File opened successfully!
 Going to read the file
 97 bytes read
 MART 441 has introduced a bunch of crazy stuff this semester.
-Closing a File
-Syntax
+
 ```
+
+**Closing a File**
+
+**Syntax**
+
 Following is the syntax to close an opened file −
 
 ```js
@@ -467,8 +471,9 @@ Going to read the file
 MART 441 has introduced a bunch of crazy stuff this semester.
 
 File closed successfully.
-Truncate a File
+
 ```
+**Truncate a File**
 
 **Syntax**
 
