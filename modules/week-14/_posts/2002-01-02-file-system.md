@@ -62,7 +62,7 @@ Program Ended
 
 The following sections in this section provide a set of good examples on major File I/O methods.
 
-**Open a File**
+### Open a File
 
 `Syntax`
 
@@ -88,52 +88,51 @@ Here is the description of the parameters used −
 
 Flags for read/write operations are −
 
-**Sr.No.	Flag & Description**
-1	      r
+`r`
 
 **Open file for reading.** An exception occurs if the file does not exist.
 
-2	      r+
+`r+`
 
 **Open file for reading and writing.** An exception occurs if the file does not exist.
 
-3	   rs
+`rs`
 
 **Open file for reading in synchronous mode.**
 
-4     rs+
+`rs+`
 
 **Open file for reading and writing**, asking the OS to open it synchronously. See notes for 'rs' about using this with caution.
 
-5     w
+`w`
 
 **Open file for writing**. The file is created (if it does not exist) or truncated (if it exists).
 
-6     wx
+`wx`
 
 **Like 'w' but fails** if the path exists.
 
-7     w+
+`w+`
 
 **Open file for reading and writing.** The file is created (if it does not exist) or truncated (if it exists).
 
-8     wx+
+`wx+`
 
 **Like 'w+' but fails if path exists.**
 
-9     a
+`a`
 
 **Open file for appending.** The file is created if it does not exist.
 
-10    ax
+`ax`
 
 **Like 'a' but fails if the path exists.**
 
-11    a+
+`a+`
 
 **Open file for reading and appending**. The file is created if it does not exist.
 
-12    ax+
+`ax+`
 
 **Like 'a+' but fails if the the path exists.**
 
@@ -166,7 +165,7 @@ Going to open file!
 File opened successfully!
 ```
 
-**Get File Information**
+### Get File Information
 
 Syntax
 
@@ -186,34 +185,34 @@ Here is the description of the parameters used −
 
 Apart from the important attributes which are printed below in the example, there are several useful methods available in fs.Stats class which can be used to check file type. These methods are given in the following table.
 
-**Sr.No.**	**Method & Description**
-1	         stats.isFile()
+
+`stats.isFile()`
 
 Returns true if file type of a simple file.
 
-2           stats.isDirectory()
+`stats.isDirectory()`
 
 Returns true if file type of a directory.
 
-3           stats.isBlockDevice()
+`stats.isBlockDevice()`
 
 Returns true if file type of a block device.
 
-4	         stats.isCharacterDevice()
+`stats.isCharacterDevice()`
 
 Returns true if file type of a character device.
 
-5	         stats.isSymbolicLink()
+`stats.isSymbolicLink()`
 
 Returns true if file type of a symbolic link.
 
-6	         stats.isFIFO()
+`stats.isFIFO()`
 
 Returns true if file type of a FIFO.
 
-7	         stats.isSocket()
+`stats.isSocket()`
 
-Returns true if file type of asocket.
+Returns true if file type of a socket.
 
 **Example**
 
@@ -239,7 +238,7 @@ fs.stat('input.txt', function (err, stats) {
 Now run the main.js to see the result −
 
 ```js
-$ node main.js
+node main.js
 ```
 
 Verify the output. It could look something like this.
@@ -270,7 +269,7 @@ Got file info successfully!
 
 **Syntax**
 
-Following is the syntax of one of the methods to write into a file −
+Following is the syntax of one of the methods to write into a file
 
 ```js
 fs.writeFile(filename, data[, options], callback)
@@ -402,7 +401,7 @@ MART 441 has introduced a bunch of crazy stuff this semester.
 
 ```
 
-**Closing a File**
+### Closing a File
 
 **Syntax**
 
@@ -473,7 +472,8 @@ MART 441 has introduced a bunch of crazy stuff this semester.
 File closed successfully.
 
 ```
-**Truncate a File**
+
+### Truncate a File
 
 **Syntax**
 
@@ -557,7 +557,7 @@ File closed successfully.
 
 ```
 
-**Delete a File**
+### Delete a File
 
 **Syntax**
 
@@ -652,7 +652,7 @@ Directory created successfully!
 
 ```
 
-**Read a Directory**
+### Read a Directory
 
 **Syntax**
 
@@ -707,7 +707,7 @@ test.txt
 
 ```
 
-**Remove a Directory**
+### Remove a Directory
 
 **Syntax**
 
